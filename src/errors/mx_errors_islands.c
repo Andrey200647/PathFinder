@@ -9,7 +9,7 @@ static void check_result(int a, int result) {
 }
 
 
-void mx_errors_islands(char *string) {
+char **mx_errors_islands(char *string) {
     char **arr;
     int count = 0;
     int non_points;
@@ -28,10 +28,12 @@ void mx_errors_islands(char *string) {
             }
         }
     }
+//    mx_print_strarr(arr, " ");
     mx_strdel(&string);
-    mx_strdel(&arr[points - 1]);
-    mx_del_strarr(&arr);
+//    mx_strdel(&arr[points - 1]);
+//    mx_del_strarr(&arr);
     non_points = points - count;
     check_result(a, non_points);
+    return arr;
 }
 

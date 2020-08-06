@@ -13,9 +13,13 @@ void mx_errors_main(int argc, char *argv[1]) {
     head = string;
     string = mx_error_file_invalid(&line_count, string);
     mx_error_file_invalid_2(&line_count, string);
-    mx_errors_isl(string);
+    t_islands *isl = (t_islands *)malloc(sizeof(t_islands));
+    mx_errors_isl(string, isl);
+    printf("%s\n", string);
+
 
     string = head;
+//    printf("%s\n", string);
 
     mx_errors_islands(string);
     mx_error_dup_bridges(argv[1]);
