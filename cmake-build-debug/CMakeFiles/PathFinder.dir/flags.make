@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk 
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/anechytail/CLionProjects/pathfinder1/inc -I/Users/anechytail/CLionProjects/pathfinder1/libmx/inc 
+C_INCLUDES = -I/Users/anechytail/CLionProjects/jopa/inc -I/Users/anechytail/CLionProjects/jopa/libmx/inc 
 

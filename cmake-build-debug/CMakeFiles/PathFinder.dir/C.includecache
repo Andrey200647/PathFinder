@@ -40,7 +40,11 @@ stdio.h
 fcntl.h
 -
 
-/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_errors_isl.c
+/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c
 pathfinder.h
-/Users/anechytail/CLionProjects/pathfinder1/src/errors/pathfinder.h
+/Users/anechytail/CLionProjects/jopa/src/errors/pathfinder.h
+
+/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c
+pathfinder.h
+/Users/anechytail/CLionProjects/jopa/src/errors/pathfinder.h
 

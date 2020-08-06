@@ -48,10 +48,10 @@ RM = "/Users/anechytail/Library/Application Support/JetBrains/Toolbox/apps/CLion
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anechytail/CLionProjects/pathfinder1
+CMAKE_SOURCE_DIR = /Users/anechytail/CLionProjects/jopa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/anechytail/CLionProjects/jopa/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/CMakeFiles /Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles /Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PathFinder
+# Target rules for targets named pathfinder
 
 # Build rule for target.
-PathFinder: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PathFinder
-.PHONY : PathFinder
+pathfinder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pathfinder
+.PHONY : pathfinder
 
 # fast build rule for target.
-PathFinder/fast:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/build
-.PHONY : PathFinder/fast
+pathfinder/fast:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/build
+.PHONY : pathfinder/fast
 
 libmx/src/mx_atoi.o: libmx/src/mx_atoi.c.o
 
@@ -129,7 +129,7 @@ libmx/src/mx_atoi.o: libmx/src/mx_atoi.c.o
 
 # target to build an object file
 libmx/src/mx_atoi.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_atoi.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o
 .PHONY : libmx/src/mx_atoi.c.o
 
 libmx/src/mx_atoi.i: libmx/src/mx_atoi.c.i
@@ -138,7 +138,7 @@ libmx/src/mx_atoi.i: libmx/src/mx_atoi.c.i
 
 # target to preprocess a source file
 libmx/src/mx_atoi.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_atoi.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.i
 .PHONY : libmx/src/mx_atoi.c.i
 
 libmx/src/mx_atoi.s: libmx/src/mx_atoi.c.s
@@ -147,7 +147,7 @@ libmx/src/mx_atoi.s: libmx/src/mx_atoi.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_atoi.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_atoi.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.s
 .PHONY : libmx/src/mx_atoi.c.s
 
 libmx/src/mx_binary_search.o: libmx/src/mx_binary_search.c.o
@@ -156,7 +156,7 @@ libmx/src/mx_binary_search.o: libmx/src/mx_binary_search.c.o
 
 # target to build an object file
 libmx/src/mx_binary_search.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_binary_search.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o
 .PHONY : libmx/src/mx_binary_search.c.o
 
 libmx/src/mx_binary_search.i: libmx/src/mx_binary_search.c.i
@@ -165,7 +165,7 @@ libmx/src/mx_binary_search.i: libmx/src/mx_binary_search.c.i
 
 # target to preprocess a source file
 libmx/src/mx_binary_search.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_binary_search.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.i
 .PHONY : libmx/src/mx_binary_search.c.i
 
 libmx/src/mx_binary_search.s: libmx/src/mx_binary_search.c.s
@@ -174,7 +174,7 @@ libmx/src/mx_binary_search.s: libmx/src/mx_binary_search.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_binary_search.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_binary_search.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.s
 .PHONY : libmx/src/mx_binary_search.c.s
 
 libmx/src/mx_bubble_sort.o: libmx/src/mx_bubble_sort.c.o
@@ -183,7 +183,7 @@ libmx/src/mx_bubble_sort.o: libmx/src/mx_bubble_sort.c.o
 
 # target to build an object file
 libmx/src/mx_bubble_sort.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_bubble_sort.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o
 .PHONY : libmx/src/mx_bubble_sort.c.o
 
 libmx/src/mx_bubble_sort.i: libmx/src/mx_bubble_sort.c.i
@@ -192,7 +192,7 @@ libmx/src/mx_bubble_sort.i: libmx/src/mx_bubble_sort.c.i
 
 # target to preprocess a source file
 libmx/src/mx_bubble_sort.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_bubble_sort.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.i
 .PHONY : libmx/src/mx_bubble_sort.c.i
 
 libmx/src/mx_bubble_sort.s: libmx/src/mx_bubble_sort.c.s
@@ -201,7 +201,7 @@ libmx/src/mx_bubble_sort.s: libmx/src/mx_bubble_sort.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_bubble_sort.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_bubble_sort.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.s
 .PHONY : libmx/src/mx_bubble_sort.c.s
 
 libmx/src/mx_count_substr.o: libmx/src/mx_count_substr.c.o
@@ -210,7 +210,7 @@ libmx/src/mx_count_substr.o: libmx/src/mx_count_substr.c.o
 
 # target to build an object file
 libmx/src/mx_count_substr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_substr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o
 .PHONY : libmx/src/mx_count_substr.c.o
 
 libmx/src/mx_count_substr.i: libmx/src/mx_count_substr.c.i
@@ -219,7 +219,7 @@ libmx/src/mx_count_substr.i: libmx/src/mx_count_substr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_count_substr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_substr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.i
 .PHONY : libmx/src/mx_count_substr.c.i
 
 libmx/src/mx_count_substr.s: libmx/src/mx_count_substr.c.s
@@ -228,7 +228,7 @@ libmx/src/mx_count_substr.s: libmx/src/mx_count_substr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_count_substr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_substr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.s
 .PHONY : libmx/src/mx_count_substr.c.s
 
 libmx/src/mx_count_words.o: libmx/src/mx_count_words.c.o
@@ -237,7 +237,7 @@ libmx/src/mx_count_words.o: libmx/src/mx_count_words.c.o
 
 # target to build an object file
 libmx/src/mx_count_words.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_words.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o
 .PHONY : libmx/src/mx_count_words.c.o
 
 libmx/src/mx_count_words.i: libmx/src/mx_count_words.c.i
@@ -246,7 +246,7 @@ libmx/src/mx_count_words.i: libmx/src/mx_count_words.c.i
 
 # target to preprocess a source file
 libmx/src/mx_count_words.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_words.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.i
 .PHONY : libmx/src/mx_count_words.c.i
 
 libmx/src/mx_count_words.s: libmx/src/mx_count_words.c.s
@@ -255,7 +255,7 @@ libmx/src/mx_count_words.s: libmx/src/mx_count_words.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_count_words.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_count_words.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.s
 .PHONY : libmx/src/mx_count_words.c.s
 
 libmx/src/mx_create_node.o: libmx/src/mx_create_node.c.o
@@ -264,7 +264,7 @@ libmx/src/mx_create_node.o: libmx/src/mx_create_node.c.o
 
 # target to build an object file
 libmx/src/mx_create_node.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_create_node.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o
 .PHONY : libmx/src/mx_create_node.c.o
 
 libmx/src/mx_create_node.i: libmx/src/mx_create_node.c.i
@@ -273,7 +273,7 @@ libmx/src/mx_create_node.i: libmx/src/mx_create_node.c.i
 
 # target to preprocess a source file
 libmx/src/mx_create_node.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_create_node.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.i
 .PHONY : libmx/src/mx_create_node.c.i
 
 libmx/src/mx_create_node.s: libmx/src/mx_create_node.c.s
@@ -282,7 +282,7 @@ libmx/src/mx_create_node.s: libmx/src/mx_create_node.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_create_node.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_create_node.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.s
 .PHONY : libmx/src/mx_create_node.c.s
 
 libmx/src/mx_del_extra_spaces.o: libmx/src/mx_del_extra_spaces.c.o
@@ -291,7 +291,7 @@ libmx/src/mx_del_extra_spaces.o: libmx/src/mx_del_extra_spaces.c.o
 
 # target to build an object file
 libmx/src/mx_del_extra_spaces.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_extra_spaces.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o
 .PHONY : libmx/src/mx_del_extra_spaces.c.o
 
 libmx/src/mx_del_extra_spaces.i: libmx/src/mx_del_extra_spaces.c.i
@@ -300,7 +300,7 @@ libmx/src/mx_del_extra_spaces.i: libmx/src/mx_del_extra_spaces.c.i
 
 # target to preprocess a source file
 libmx/src/mx_del_extra_spaces.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_extra_spaces.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.i
 .PHONY : libmx/src/mx_del_extra_spaces.c.i
 
 libmx/src/mx_del_extra_spaces.s: libmx/src/mx_del_extra_spaces.c.s
@@ -309,7 +309,7 @@ libmx/src/mx_del_extra_spaces.s: libmx/src/mx_del_extra_spaces.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_del_extra_spaces.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_extra_spaces.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.s
 .PHONY : libmx/src/mx_del_extra_spaces.c.s
 
 libmx/src/mx_del_not_alphabet.o: libmx/src/mx_del_not_alphabet.c.o
@@ -318,7 +318,7 @@ libmx/src/mx_del_not_alphabet.o: libmx/src/mx_del_not_alphabet.c.o
 
 # target to build an object file
 libmx/src/mx_del_not_alphabet.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_not_alphabet.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o
 .PHONY : libmx/src/mx_del_not_alphabet.c.o
 
 libmx/src/mx_del_not_alphabet.i: libmx/src/mx_del_not_alphabet.c.i
@@ -327,7 +327,7 @@ libmx/src/mx_del_not_alphabet.i: libmx/src/mx_del_not_alphabet.c.i
 
 # target to preprocess a source file
 libmx/src/mx_del_not_alphabet.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_not_alphabet.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.i
 .PHONY : libmx/src/mx_del_not_alphabet.c.i
 
 libmx/src/mx_del_not_alphabet.s: libmx/src/mx_del_not_alphabet.c.s
@@ -336,7 +336,7 @@ libmx/src/mx_del_not_alphabet.s: libmx/src/mx_del_not_alphabet.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_del_not_alphabet.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_not_alphabet.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.s
 .PHONY : libmx/src/mx_del_not_alphabet.c.s
 
 libmx/src/mx_del_strarr.o: libmx/src/mx_del_strarr.c.o
@@ -345,7 +345,7 @@ libmx/src/mx_del_strarr.o: libmx/src/mx_del_strarr.c.o
 
 # target to build an object file
 libmx/src/mx_del_strarr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_strarr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o
 .PHONY : libmx/src/mx_del_strarr.c.o
 
 libmx/src/mx_del_strarr.i: libmx/src/mx_del_strarr.c.i
@@ -354,7 +354,7 @@ libmx/src/mx_del_strarr.i: libmx/src/mx_del_strarr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_del_strarr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_strarr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.i
 .PHONY : libmx/src/mx_del_strarr.c.i
 
 libmx/src/mx_del_strarr.s: libmx/src/mx_del_strarr.c.s
@@ -363,7 +363,7 @@ libmx/src/mx_del_strarr.s: libmx/src/mx_del_strarr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_del_strarr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_del_strarr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.s
 .PHONY : libmx/src/mx_del_strarr.c.s
 
 libmx/src/mx_file_to_str.o: libmx/src/mx_file_to_str.c.o
@@ -372,7 +372,7 @@ libmx/src/mx_file_to_str.o: libmx/src/mx_file_to_str.c.o
 
 # target to build an object file
 libmx/src/mx_file_to_str.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_file_to_str.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o
 .PHONY : libmx/src/mx_file_to_str.c.o
 
 libmx/src/mx_file_to_str.i: libmx/src/mx_file_to_str.c.i
@@ -381,7 +381,7 @@ libmx/src/mx_file_to_str.i: libmx/src/mx_file_to_str.c.i
 
 # target to preprocess a source file
 libmx/src/mx_file_to_str.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_file_to_str.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.i
 .PHONY : libmx/src/mx_file_to_str.c.i
 
 libmx/src/mx_file_to_str.s: libmx/src/mx_file_to_str.c.s
@@ -390,7 +390,7 @@ libmx/src/mx_file_to_str.s: libmx/src/mx_file_to_str.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_file_to_str.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_file_to_str.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.s
 .PHONY : libmx/src/mx_file_to_str.c.s
 
 libmx/src/mx_foreach.o: libmx/src/mx_foreach.c.o
@@ -399,7 +399,7 @@ libmx/src/mx_foreach.o: libmx/src/mx_foreach.c.o
 
 # target to build an object file
 libmx/src/mx_foreach.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_foreach.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o
 .PHONY : libmx/src/mx_foreach.c.o
 
 libmx/src/mx_foreach.i: libmx/src/mx_foreach.c.i
@@ -408,7 +408,7 @@ libmx/src/mx_foreach.i: libmx/src/mx_foreach.c.i
 
 # target to preprocess a source file
 libmx/src/mx_foreach.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_foreach.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.i
 .PHONY : libmx/src/mx_foreach.c.i
 
 libmx/src/mx_foreach.s: libmx/src/mx_foreach.c.s
@@ -417,7 +417,7 @@ libmx/src/mx_foreach.s: libmx/src/mx_foreach.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_foreach.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_foreach.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.s
 .PHONY : libmx/src/mx_foreach.c.s
 
 libmx/src/mx_get_char_index.o: libmx/src/mx_get_char_index.c.o
@@ -426,7 +426,7 @@ libmx/src/mx_get_char_index.o: libmx/src/mx_get_char_index.c.o
 
 # target to build an object file
 libmx/src/mx_get_char_index.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_char_index.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o
 .PHONY : libmx/src/mx_get_char_index.c.o
 
 libmx/src/mx_get_char_index.i: libmx/src/mx_get_char_index.c.i
@@ -435,7 +435,7 @@ libmx/src/mx_get_char_index.i: libmx/src/mx_get_char_index.c.i
 
 # target to preprocess a source file
 libmx/src/mx_get_char_index.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_char_index.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.i
 .PHONY : libmx/src/mx_get_char_index.c.i
 
 libmx/src/mx_get_char_index.s: libmx/src/mx_get_char_index.c.s
@@ -444,7 +444,7 @@ libmx/src/mx_get_char_index.s: libmx/src/mx_get_char_index.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_get_char_index.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_char_index.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.s
 .PHONY : libmx/src/mx_get_char_index.c.s
 
 libmx/src/mx_get_substr_index.o: libmx/src/mx_get_substr_index.c.o
@@ -453,7 +453,7 @@ libmx/src/mx_get_substr_index.o: libmx/src/mx_get_substr_index.c.o
 
 # target to build an object file
 libmx/src/mx_get_substr_index.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_substr_index.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o
 .PHONY : libmx/src/mx_get_substr_index.c.o
 
 libmx/src/mx_get_substr_index.i: libmx/src/mx_get_substr_index.c.i
@@ -462,7 +462,7 @@ libmx/src/mx_get_substr_index.i: libmx/src/mx_get_substr_index.c.i
 
 # target to preprocess a source file
 libmx/src/mx_get_substr_index.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_substr_index.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.i
 .PHONY : libmx/src/mx_get_substr_index.c.i
 
 libmx/src/mx_get_substr_index.s: libmx/src/mx_get_substr_index.c.s
@@ -471,7 +471,7 @@ libmx/src/mx_get_substr_index.s: libmx/src/mx_get_substr_index.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_get_substr_index.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_get_substr_index.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.s
 .PHONY : libmx/src/mx_get_substr_index.c.s
 
 libmx/src/mx_hex_to_nbr.o: libmx/src/mx_hex_to_nbr.c.o
@@ -480,7 +480,7 @@ libmx/src/mx_hex_to_nbr.o: libmx/src/mx_hex_to_nbr.c.o
 
 # target to build an object file
 libmx/src/mx_hex_to_nbr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_hex_to_nbr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o
 .PHONY : libmx/src/mx_hex_to_nbr.c.o
 
 libmx/src/mx_hex_to_nbr.i: libmx/src/mx_hex_to_nbr.c.i
@@ -489,7 +489,7 @@ libmx/src/mx_hex_to_nbr.i: libmx/src/mx_hex_to_nbr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_hex_to_nbr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_hex_to_nbr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.i
 .PHONY : libmx/src/mx_hex_to_nbr.c.i
 
 libmx/src/mx_hex_to_nbr.s: libmx/src/mx_hex_to_nbr.c.s
@@ -498,7 +498,7 @@ libmx/src/mx_hex_to_nbr.s: libmx/src/mx_hex_to_nbr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_hex_to_nbr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_hex_to_nbr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.s
 .PHONY : libmx/src/mx_hex_to_nbr.c.s
 
 libmx/src/mx_in_alphabet.o: libmx/src/mx_in_alphabet.c.o
@@ -507,7 +507,7 @@ libmx/src/mx_in_alphabet.o: libmx/src/mx_in_alphabet.c.o
 
 # target to build an object file
 libmx/src/mx_in_alphabet.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_in_alphabet.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o
 .PHONY : libmx/src/mx_in_alphabet.c.o
 
 libmx/src/mx_in_alphabet.i: libmx/src/mx_in_alphabet.c.i
@@ -516,7 +516,7 @@ libmx/src/mx_in_alphabet.i: libmx/src/mx_in_alphabet.c.i
 
 # target to preprocess a source file
 libmx/src/mx_in_alphabet.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_in_alphabet.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.i
 .PHONY : libmx/src/mx_in_alphabet.c.i
 
 libmx/src/mx_in_alphabet.s: libmx/src/mx_in_alphabet.c.s
@@ -525,7 +525,7 @@ libmx/src/mx_in_alphabet.s: libmx/src/mx_in_alphabet.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_in_alphabet.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_in_alphabet.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.s
 .PHONY : libmx/src/mx_in_alphabet.c.s
 
 libmx/src/mx_is_odd.o: libmx/src/mx_is_odd.c.o
@@ -534,7 +534,7 @@ libmx/src/mx_is_odd.o: libmx/src/mx_is_odd.c.o
 
 # target to build an object file
 libmx/src/mx_is_odd.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_is_odd.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o
 .PHONY : libmx/src/mx_is_odd.c.o
 
 libmx/src/mx_is_odd.i: libmx/src/mx_is_odd.c.i
@@ -543,7 +543,7 @@ libmx/src/mx_is_odd.i: libmx/src/mx_is_odd.c.i
 
 # target to preprocess a source file
 libmx/src/mx_is_odd.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_is_odd.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.i
 .PHONY : libmx/src/mx_is_odd.c.i
 
 libmx/src/mx_is_odd.s: libmx/src/mx_is_odd.c.s
@@ -552,7 +552,7 @@ libmx/src/mx_is_odd.s: libmx/src/mx_is_odd.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_is_odd.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_is_odd.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.s
 .PHONY : libmx/src/mx_is_odd.c.s
 
 libmx/src/mx_isalpha.o: libmx/src/mx_isalpha.c.o
@@ -561,7 +561,7 @@ libmx/src/mx_isalpha.o: libmx/src/mx_isalpha.c.o
 
 # target to build an object file
 libmx/src/mx_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isalpha.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o
 .PHONY : libmx/src/mx_isalpha.c.o
 
 libmx/src/mx_isalpha.i: libmx/src/mx_isalpha.c.i
@@ -570,7 +570,7 @@ libmx/src/mx_isalpha.i: libmx/src/mx_isalpha.c.i
 
 # target to preprocess a source file
 libmx/src/mx_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isalpha.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.i
 .PHONY : libmx/src/mx_isalpha.c.i
 
 libmx/src/mx_isalpha.s: libmx/src/mx_isalpha.c.s
@@ -579,7 +579,7 @@ libmx/src/mx_isalpha.s: libmx/src/mx_isalpha.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isalpha.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.s
 .PHONY : libmx/src/mx_isalpha.c.s
 
 libmx/src/mx_isdigit.o: libmx/src/mx_isdigit.c.o
@@ -588,7 +588,7 @@ libmx/src/mx_isdigit.o: libmx/src/mx_isdigit.c.o
 
 # target to build an object file
 libmx/src/mx_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isdigit.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o
 .PHONY : libmx/src/mx_isdigit.c.o
 
 libmx/src/mx_isdigit.i: libmx/src/mx_isdigit.c.i
@@ -597,7 +597,7 @@ libmx/src/mx_isdigit.i: libmx/src/mx_isdigit.c.i
 
 # target to preprocess a source file
 libmx/src/mx_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isdigit.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.i
 .PHONY : libmx/src/mx_isdigit.c.i
 
 libmx/src/mx_isdigit.s: libmx/src/mx_isdigit.c.s
@@ -606,7 +606,7 @@ libmx/src/mx_isdigit.s: libmx/src/mx_isdigit.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isdigit.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.s
 .PHONY : libmx/src/mx_isdigit.c.s
 
 libmx/src/mx_islower.o: libmx/src/mx_islower.c.o
@@ -615,7 +615,7 @@ libmx/src/mx_islower.o: libmx/src/mx_islower.c.o
 
 # target to build an object file
 libmx/src/mx_islower.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_islower.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o
 .PHONY : libmx/src/mx_islower.c.o
 
 libmx/src/mx_islower.i: libmx/src/mx_islower.c.i
@@ -624,7 +624,7 @@ libmx/src/mx_islower.i: libmx/src/mx_islower.c.i
 
 # target to preprocess a source file
 libmx/src/mx_islower.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_islower.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.i
 .PHONY : libmx/src/mx_islower.c.i
 
 libmx/src/mx_islower.s: libmx/src/mx_islower.c.s
@@ -633,7 +633,7 @@ libmx/src/mx_islower.s: libmx/src/mx_islower.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_islower.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_islower.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.s
 .PHONY : libmx/src/mx_islower.c.s
 
 libmx/src/mx_isupper.o: libmx/src/mx_isupper.c.o
@@ -642,7 +642,7 @@ libmx/src/mx_isupper.o: libmx/src/mx_isupper.c.o
 
 # target to build an object file
 libmx/src/mx_isupper.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isupper.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o
 .PHONY : libmx/src/mx_isupper.c.o
 
 libmx/src/mx_isupper.i: libmx/src/mx_isupper.c.i
@@ -651,7 +651,7 @@ libmx/src/mx_isupper.i: libmx/src/mx_isupper.c.i
 
 # target to preprocess a source file
 libmx/src/mx_isupper.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isupper.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.i
 .PHONY : libmx/src/mx_isupper.c.i
 
 libmx/src/mx_isupper.s: libmx/src/mx_isupper.c.s
@@ -660,7 +660,7 @@ libmx/src/mx_isupper.s: libmx/src/mx_isupper.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_isupper.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_isupper.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.s
 .PHONY : libmx/src/mx_isupper.c.s
 
 libmx/src/mx_itoa.o: libmx/src/mx_itoa.c.o
@@ -669,7 +669,7 @@ libmx/src/mx_itoa.o: libmx/src/mx_itoa.c.o
 
 # target to build an object file
 libmx/src/mx_itoa.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_itoa.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o
 .PHONY : libmx/src/mx_itoa.c.o
 
 libmx/src/mx_itoa.i: libmx/src/mx_itoa.c.i
@@ -678,7 +678,7 @@ libmx/src/mx_itoa.i: libmx/src/mx_itoa.c.i
 
 # target to preprocess a source file
 libmx/src/mx_itoa.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_itoa.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.i
 .PHONY : libmx/src/mx_itoa.c.i
 
 libmx/src/mx_itoa.s: libmx/src/mx_itoa.c.s
@@ -687,7 +687,7 @@ libmx/src/mx_itoa.s: libmx/src/mx_itoa.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_itoa.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_itoa.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.s
 .PHONY : libmx/src/mx_itoa.c.s
 
 libmx/src/mx_list_size.o: libmx/src/mx_list_size.c.o
@@ -696,7 +696,7 @@ libmx/src/mx_list_size.o: libmx/src/mx_list_size.c.o
 
 # target to build an object file
 libmx/src/mx_list_size.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_list_size.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o
 .PHONY : libmx/src/mx_list_size.c.o
 
 libmx/src/mx_list_size.i: libmx/src/mx_list_size.c.i
@@ -705,7 +705,7 @@ libmx/src/mx_list_size.i: libmx/src/mx_list_size.c.i
 
 # target to preprocess a source file
 libmx/src/mx_list_size.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_list_size.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.i
 .PHONY : libmx/src/mx_list_size.c.i
 
 libmx/src/mx_list_size.s: libmx/src/mx_list_size.c.s
@@ -714,7 +714,7 @@ libmx/src/mx_list_size.s: libmx/src/mx_list_size.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_list_size.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_list_size.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.s
 .PHONY : libmx/src/mx_list_size.c.s
 
 libmx/src/mx_memccpy.o: libmx/src/mx_memccpy.c.o
@@ -723,7 +723,7 @@ libmx/src/mx_memccpy.o: libmx/src/mx_memccpy.c.o
 
 # target to build an object file
 libmx/src/mx_memccpy.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memccpy.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o
 .PHONY : libmx/src/mx_memccpy.c.o
 
 libmx/src/mx_memccpy.i: libmx/src/mx_memccpy.c.i
@@ -732,7 +732,7 @@ libmx/src/mx_memccpy.i: libmx/src/mx_memccpy.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memccpy.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memccpy.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.i
 .PHONY : libmx/src/mx_memccpy.c.i
 
 libmx/src/mx_memccpy.s: libmx/src/mx_memccpy.c.s
@@ -741,7 +741,7 @@ libmx/src/mx_memccpy.s: libmx/src/mx_memccpy.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memccpy.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memccpy.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.s
 .PHONY : libmx/src/mx_memccpy.c.s
 
 libmx/src/mx_memchr.o: libmx/src/mx_memchr.c.o
@@ -750,7 +750,7 @@ libmx/src/mx_memchr.o: libmx/src/mx_memchr.c.o
 
 # target to build an object file
 libmx/src/mx_memchr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memchr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o
 .PHONY : libmx/src/mx_memchr.c.o
 
 libmx/src/mx_memchr.i: libmx/src/mx_memchr.c.i
@@ -759,7 +759,7 @@ libmx/src/mx_memchr.i: libmx/src/mx_memchr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memchr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memchr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.i
 .PHONY : libmx/src/mx_memchr.c.i
 
 libmx/src/mx_memchr.s: libmx/src/mx_memchr.c.s
@@ -768,7 +768,7 @@ libmx/src/mx_memchr.s: libmx/src/mx_memchr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memchr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memchr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.s
 .PHONY : libmx/src/mx_memchr.c.s
 
 libmx/src/mx_memcmp.o: libmx/src/mx_memcmp.c.o
@@ -777,7 +777,7 @@ libmx/src/mx_memcmp.o: libmx/src/mx_memcmp.c.o
 
 # target to build an object file
 libmx/src/mx_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcmp.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o
 .PHONY : libmx/src/mx_memcmp.c.o
 
 libmx/src/mx_memcmp.i: libmx/src/mx_memcmp.c.i
@@ -786,7 +786,7 @@ libmx/src/mx_memcmp.i: libmx/src/mx_memcmp.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcmp.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.i
 .PHONY : libmx/src/mx_memcmp.c.i
 
 libmx/src/mx_memcmp.s: libmx/src/mx_memcmp.c.s
@@ -795,7 +795,7 @@ libmx/src/mx_memcmp.s: libmx/src/mx_memcmp.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcmp.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.s
 .PHONY : libmx/src/mx_memcmp.c.s
 
 libmx/src/mx_memcpy.o: libmx/src/mx_memcpy.c.o
@@ -804,7 +804,7 @@ libmx/src/mx_memcpy.o: libmx/src/mx_memcpy.c.o
 
 # target to build an object file
 libmx/src/mx_memcpy.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcpy.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o
 .PHONY : libmx/src/mx_memcpy.c.o
 
 libmx/src/mx_memcpy.i: libmx/src/mx_memcpy.c.i
@@ -813,7 +813,7 @@ libmx/src/mx_memcpy.i: libmx/src/mx_memcpy.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memcpy.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcpy.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.i
 .PHONY : libmx/src/mx_memcpy.c.i
 
 libmx/src/mx_memcpy.s: libmx/src/mx_memcpy.c.s
@@ -822,7 +822,7 @@ libmx/src/mx_memcpy.s: libmx/src/mx_memcpy.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memcpy.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memcpy.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.s
 .PHONY : libmx/src/mx_memcpy.c.s
 
 libmx/src/mx_memmem.o: libmx/src/mx_memmem.c.o
@@ -831,7 +831,7 @@ libmx/src/mx_memmem.o: libmx/src/mx_memmem.c.o
 
 # target to build an object file
 libmx/src/mx_memmem.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmem.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o
 .PHONY : libmx/src/mx_memmem.c.o
 
 libmx/src/mx_memmem.i: libmx/src/mx_memmem.c.i
@@ -840,7 +840,7 @@ libmx/src/mx_memmem.i: libmx/src/mx_memmem.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memmem.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmem.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.i
 .PHONY : libmx/src/mx_memmem.c.i
 
 libmx/src/mx_memmem.s: libmx/src/mx_memmem.c.s
@@ -849,7 +849,7 @@ libmx/src/mx_memmem.s: libmx/src/mx_memmem.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memmem.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmem.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.s
 .PHONY : libmx/src/mx_memmem.c.s
 
 libmx/src/mx_memmove.o: libmx/src/mx_memmove.c.o
@@ -858,7 +858,7 @@ libmx/src/mx_memmove.o: libmx/src/mx_memmove.c.o
 
 # target to build an object file
 libmx/src/mx_memmove.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmove.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o
 .PHONY : libmx/src/mx_memmove.c.o
 
 libmx/src/mx_memmove.i: libmx/src/mx_memmove.c.i
@@ -867,7 +867,7 @@ libmx/src/mx_memmove.i: libmx/src/mx_memmove.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memmove.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmove.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.i
 .PHONY : libmx/src/mx_memmove.c.i
 
 libmx/src/mx_memmove.s: libmx/src/mx_memmove.c.s
@@ -876,7 +876,7 @@ libmx/src/mx_memmove.s: libmx/src/mx_memmove.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memmove.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memmove.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.s
 .PHONY : libmx/src/mx_memmove.c.s
 
 libmx/src/mx_memrchr.o: libmx/src/mx_memrchr.c.o
@@ -885,7 +885,7 @@ libmx/src/mx_memrchr.o: libmx/src/mx_memrchr.c.o
 
 # target to build an object file
 libmx/src/mx_memrchr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memrchr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o
 .PHONY : libmx/src/mx_memrchr.c.o
 
 libmx/src/mx_memrchr.i: libmx/src/mx_memrchr.c.i
@@ -894,7 +894,7 @@ libmx/src/mx_memrchr.i: libmx/src/mx_memrchr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memrchr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memrchr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.i
 .PHONY : libmx/src/mx_memrchr.c.i
 
 libmx/src/mx_memrchr.s: libmx/src/mx_memrchr.c.s
@@ -903,7 +903,7 @@ libmx/src/mx_memrchr.s: libmx/src/mx_memrchr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memrchr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memrchr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.s
 .PHONY : libmx/src/mx_memrchr.c.s
 
 libmx/src/mx_memset.o: libmx/src/mx_memset.c.o
@@ -912,7 +912,7 @@ libmx/src/mx_memset.o: libmx/src/mx_memset.c.o
 
 # target to build an object file
 libmx/src/mx_memset.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memset.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o
 .PHONY : libmx/src/mx_memset.c.o
 
 libmx/src/mx_memset.i: libmx/src/mx_memset.c.i
@@ -921,7 +921,7 @@ libmx/src/mx_memset.i: libmx/src/mx_memset.c.i
 
 # target to preprocess a source file
 libmx/src/mx_memset.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memset.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.i
 .PHONY : libmx/src/mx_memset.c.i
 
 libmx/src/mx_memset.s: libmx/src/mx_memset.c.s
@@ -930,7 +930,7 @@ libmx/src/mx_memset.s: libmx/src/mx_memset.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_memset.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_memset.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.s
 .PHONY : libmx/src/mx_memset.c.s
 
 libmx/src/mx_nbr_length.o: libmx/src/mx_nbr_length.c.o
@@ -939,7 +939,7 @@ libmx/src/mx_nbr_length.o: libmx/src/mx_nbr_length.c.o
 
 # target to build an object file
 libmx/src/mx_nbr_length.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_length.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o
 .PHONY : libmx/src/mx_nbr_length.c.o
 
 libmx/src/mx_nbr_length.i: libmx/src/mx_nbr_length.c.i
@@ -948,7 +948,7 @@ libmx/src/mx_nbr_length.i: libmx/src/mx_nbr_length.c.i
 
 # target to preprocess a source file
 libmx/src/mx_nbr_length.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_length.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.i
 .PHONY : libmx/src/mx_nbr_length.c.i
 
 libmx/src/mx_nbr_length.s: libmx/src/mx_nbr_length.c.s
@@ -957,7 +957,7 @@ libmx/src/mx_nbr_length.s: libmx/src/mx_nbr_length.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_nbr_length.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_length.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.s
 .PHONY : libmx/src/mx_nbr_length.c.s
 
 libmx/src/mx_nbr_to_hex.o: libmx/src/mx_nbr_to_hex.c.o
@@ -966,7 +966,7 @@ libmx/src/mx_nbr_to_hex.o: libmx/src/mx_nbr_to_hex.c.o
 
 # target to build an object file
 libmx/src/mx_nbr_to_hex.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_to_hex.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o
 .PHONY : libmx/src/mx_nbr_to_hex.c.o
 
 libmx/src/mx_nbr_to_hex.i: libmx/src/mx_nbr_to_hex.c.i
@@ -975,7 +975,7 @@ libmx/src/mx_nbr_to_hex.i: libmx/src/mx_nbr_to_hex.c.i
 
 # target to preprocess a source file
 libmx/src/mx_nbr_to_hex.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_to_hex.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.i
 .PHONY : libmx/src/mx_nbr_to_hex.c.i
 
 libmx/src/mx_nbr_to_hex.s: libmx/src/mx_nbr_to_hex.c.s
@@ -984,7 +984,7 @@ libmx/src/mx_nbr_to_hex.s: libmx/src/mx_nbr_to_hex.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_nbr_to_hex.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_nbr_to_hex.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.s
 .PHONY : libmx/src/mx_nbr_to_hex.c.s
 
 libmx/src/mx_pop_back.o: libmx/src/mx_pop_back.c.o
@@ -993,7 +993,7 @@ libmx/src/mx_pop_back.o: libmx/src/mx_pop_back.c.o
 
 # target to build an object file
 libmx/src/mx_pop_back.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_back.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o
 .PHONY : libmx/src/mx_pop_back.c.o
 
 libmx/src/mx_pop_back.i: libmx/src/mx_pop_back.c.i
@@ -1002,7 +1002,7 @@ libmx/src/mx_pop_back.i: libmx/src/mx_pop_back.c.i
 
 # target to preprocess a source file
 libmx/src/mx_pop_back.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_back.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.i
 .PHONY : libmx/src/mx_pop_back.c.i
 
 libmx/src/mx_pop_back.s: libmx/src/mx_pop_back.c.s
@@ -1011,7 +1011,7 @@ libmx/src/mx_pop_back.s: libmx/src/mx_pop_back.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_pop_back.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_back.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.s
 .PHONY : libmx/src/mx_pop_back.c.s
 
 libmx/src/mx_pop_front.o: libmx/src/mx_pop_front.c.o
@@ -1020,7 +1020,7 @@ libmx/src/mx_pop_front.o: libmx/src/mx_pop_front.c.o
 
 # target to build an object file
 libmx/src/mx_pop_front.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_front.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o
 .PHONY : libmx/src/mx_pop_front.c.o
 
 libmx/src/mx_pop_front.i: libmx/src/mx_pop_front.c.i
@@ -1029,7 +1029,7 @@ libmx/src/mx_pop_front.i: libmx/src/mx_pop_front.c.i
 
 # target to preprocess a source file
 libmx/src/mx_pop_front.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_front.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.i
 .PHONY : libmx/src/mx_pop_front.c.i
 
 libmx/src/mx_pop_front.s: libmx/src/mx_pop_front.c.s
@@ -1038,7 +1038,7 @@ libmx/src/mx_pop_front.s: libmx/src/mx_pop_front.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_pop_front.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pop_front.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.s
 .PHONY : libmx/src/mx_pop_front.c.s
 
 libmx/src/mx_pow.o: libmx/src/mx_pow.c.o
@@ -1047,7 +1047,7 @@ libmx/src/mx_pow.o: libmx/src/mx_pow.c.o
 
 # target to build an object file
 libmx/src/mx_pow.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pow.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o
 .PHONY : libmx/src/mx_pow.c.o
 
 libmx/src/mx_pow.i: libmx/src/mx_pow.c.i
@@ -1056,7 +1056,7 @@ libmx/src/mx_pow.i: libmx/src/mx_pow.c.i
 
 # target to preprocess a source file
 libmx/src/mx_pow.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pow.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.i
 .PHONY : libmx/src/mx_pow.c.i
 
 libmx/src/mx_pow.s: libmx/src/mx_pow.c.s
@@ -1065,7 +1065,7 @@ libmx/src/mx_pow.s: libmx/src/mx_pow.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_pow.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_pow.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.s
 .PHONY : libmx/src/mx_pow.c.s
 
 libmx/src/mx_print_strarr.o: libmx/src/mx_print_strarr.c.o
@@ -1074,7 +1074,7 @@ libmx/src/mx_print_strarr.o: libmx/src/mx_print_strarr.c.o
 
 # target to build an object file
 libmx/src/mx_print_strarr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_strarr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o
 .PHONY : libmx/src/mx_print_strarr.c.o
 
 libmx/src/mx_print_strarr.i: libmx/src/mx_print_strarr.c.i
@@ -1083,7 +1083,7 @@ libmx/src/mx_print_strarr.i: libmx/src/mx_print_strarr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_print_strarr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_strarr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.i
 .PHONY : libmx/src/mx_print_strarr.c.i
 
 libmx/src/mx_print_strarr.s: libmx/src/mx_print_strarr.c.s
@@ -1092,7 +1092,7 @@ libmx/src/mx_print_strarr.s: libmx/src/mx_print_strarr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_print_strarr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_strarr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.s
 .PHONY : libmx/src/mx_print_strarr.c.s
 
 libmx/src/mx_print_unicode.o: libmx/src/mx_print_unicode.c.o
@@ -1101,7 +1101,7 @@ libmx/src/mx_print_unicode.o: libmx/src/mx_print_unicode.c.o
 
 # target to build an object file
 libmx/src/mx_print_unicode.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_unicode.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o
 .PHONY : libmx/src/mx_print_unicode.c.o
 
 libmx/src/mx_print_unicode.i: libmx/src/mx_print_unicode.c.i
@@ -1110,7 +1110,7 @@ libmx/src/mx_print_unicode.i: libmx/src/mx_print_unicode.c.i
 
 # target to preprocess a source file
 libmx/src/mx_print_unicode.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_unicode.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.i
 .PHONY : libmx/src/mx_print_unicode.c.i
 
 libmx/src/mx_print_unicode.s: libmx/src/mx_print_unicode.c.s
@@ -1119,7 +1119,7 @@ libmx/src/mx_print_unicode.s: libmx/src/mx_print_unicode.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_print_unicode.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_print_unicode.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.s
 .PHONY : libmx/src/mx_print_unicode.c.s
 
 libmx/src/mx_printchar.o: libmx/src/mx_printchar.c.o
@@ -1128,7 +1128,7 @@ libmx/src/mx_printchar.o: libmx/src/mx_printchar.c.o
 
 # target to build an object file
 libmx/src/mx_printchar.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printchar.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o
 .PHONY : libmx/src/mx_printchar.c.o
 
 libmx/src/mx_printchar.i: libmx/src/mx_printchar.c.i
@@ -1137,7 +1137,7 @@ libmx/src/mx_printchar.i: libmx/src/mx_printchar.c.i
 
 # target to preprocess a source file
 libmx/src/mx_printchar.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printchar.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.i
 .PHONY : libmx/src/mx_printchar.c.i
 
 libmx/src/mx_printchar.s: libmx/src/mx_printchar.c.s
@@ -1146,7 +1146,7 @@ libmx/src/mx_printchar.s: libmx/src/mx_printchar.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_printchar.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printchar.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.s
 .PHONY : libmx/src/mx_printchar.c.s
 
 libmx/src/mx_printerr.o: libmx/src/mx_printerr.c.o
@@ -1155,7 +1155,7 @@ libmx/src/mx_printerr.o: libmx/src/mx_printerr.c.o
 
 # target to build an object file
 libmx/src/mx_printerr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printerr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o
 .PHONY : libmx/src/mx_printerr.c.o
 
 libmx/src/mx_printerr.i: libmx/src/mx_printerr.c.i
@@ -1164,7 +1164,7 @@ libmx/src/mx_printerr.i: libmx/src/mx_printerr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_printerr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printerr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.i
 .PHONY : libmx/src/mx_printerr.c.i
 
 libmx/src/mx_printerr.s: libmx/src/mx_printerr.c.s
@@ -1173,7 +1173,7 @@ libmx/src/mx_printerr.s: libmx/src/mx_printerr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_printerr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printerr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.s
 .PHONY : libmx/src/mx_printerr.c.s
 
 libmx/src/mx_printint.o: libmx/src/mx_printint.c.o
@@ -1182,7 +1182,7 @@ libmx/src/mx_printint.o: libmx/src/mx_printint.c.o
 
 # target to build an object file
 libmx/src/mx_printint.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printint.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o
 .PHONY : libmx/src/mx_printint.c.o
 
 libmx/src/mx_printint.i: libmx/src/mx_printint.c.i
@@ -1191,7 +1191,7 @@ libmx/src/mx_printint.i: libmx/src/mx_printint.c.i
 
 # target to preprocess a source file
 libmx/src/mx_printint.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printint.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.i
 .PHONY : libmx/src/mx_printint.c.i
 
 libmx/src/mx_printint.s: libmx/src/mx_printint.c.s
@@ -1200,7 +1200,7 @@ libmx/src/mx_printint.s: libmx/src/mx_printint.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_printint.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printint.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.s
 .PHONY : libmx/src/mx_printint.c.s
 
 libmx/src/mx_printstr.o: libmx/src/mx_printstr.c.o
@@ -1209,7 +1209,7 @@ libmx/src/mx_printstr.o: libmx/src/mx_printstr.c.o
 
 # target to build an object file
 libmx/src/mx_printstr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printstr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o
 .PHONY : libmx/src/mx_printstr.c.o
 
 libmx/src/mx_printstr.i: libmx/src/mx_printstr.c.i
@@ -1218,7 +1218,7 @@ libmx/src/mx_printstr.i: libmx/src/mx_printstr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_printstr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printstr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.i
 .PHONY : libmx/src/mx_printstr.c.i
 
 libmx/src/mx_printstr.s: libmx/src/mx_printstr.c.s
@@ -1227,7 +1227,7 @@ libmx/src/mx_printstr.s: libmx/src/mx_printstr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_printstr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_printstr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.s
 .PHONY : libmx/src/mx_printstr.c.s
 
 libmx/src/mx_push_back.o: libmx/src/mx_push_back.c.o
@@ -1236,7 +1236,7 @@ libmx/src/mx_push_back.o: libmx/src/mx_push_back.c.o
 
 # target to build an object file
 libmx/src/mx_push_back.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_back.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o
 .PHONY : libmx/src/mx_push_back.c.o
 
 libmx/src/mx_push_back.i: libmx/src/mx_push_back.c.i
@@ -1245,7 +1245,7 @@ libmx/src/mx_push_back.i: libmx/src/mx_push_back.c.i
 
 # target to preprocess a source file
 libmx/src/mx_push_back.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_back.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.i
 .PHONY : libmx/src/mx_push_back.c.i
 
 libmx/src/mx_push_back.s: libmx/src/mx_push_back.c.s
@@ -1254,7 +1254,7 @@ libmx/src/mx_push_back.s: libmx/src/mx_push_back.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_push_back.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_back.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.s
 .PHONY : libmx/src/mx_push_back.c.s
 
 libmx/src/mx_push_front.o: libmx/src/mx_push_front.c.o
@@ -1263,7 +1263,7 @@ libmx/src/mx_push_front.o: libmx/src/mx_push_front.c.o
 
 # target to build an object file
 libmx/src/mx_push_front.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_front.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o
 .PHONY : libmx/src/mx_push_front.c.o
 
 libmx/src/mx_push_front.i: libmx/src/mx_push_front.c.i
@@ -1272,7 +1272,7 @@ libmx/src/mx_push_front.i: libmx/src/mx_push_front.c.i
 
 # target to preprocess a source file
 libmx/src/mx_push_front.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_front.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.i
 .PHONY : libmx/src/mx_push_front.c.i
 
 libmx/src/mx_push_front.s: libmx/src/mx_push_front.c.s
@@ -1281,7 +1281,7 @@ libmx/src/mx_push_front.s: libmx/src/mx_push_front.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_push_front.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_push_front.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.s
 .PHONY : libmx/src/mx_push_front.c.s
 
 libmx/src/mx_quicksort.o: libmx/src/mx_quicksort.c.o
@@ -1290,7 +1290,7 @@ libmx/src/mx_quicksort.o: libmx/src/mx_quicksort.c.o
 
 # target to build an object file
 libmx/src/mx_quicksort.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_quicksort.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o
 .PHONY : libmx/src/mx_quicksort.c.o
 
 libmx/src/mx_quicksort.i: libmx/src/mx_quicksort.c.i
@@ -1299,7 +1299,7 @@ libmx/src/mx_quicksort.i: libmx/src/mx_quicksort.c.i
 
 # target to preprocess a source file
 libmx/src/mx_quicksort.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_quicksort.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.i
 .PHONY : libmx/src/mx_quicksort.c.i
 
 libmx/src/mx_quicksort.s: libmx/src/mx_quicksort.c.s
@@ -1308,7 +1308,7 @@ libmx/src/mx_quicksort.s: libmx/src/mx_quicksort.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_quicksort.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_quicksort.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.s
 .PHONY : libmx/src/mx_quicksort.c.s
 
 libmx/src/mx_read_one_line.o: libmx/src/mx_read_one_line.c.o
@@ -1317,7 +1317,7 @@ libmx/src/mx_read_one_line.o: libmx/src/mx_read_one_line.c.o
 
 # target to build an object file
 libmx/src/mx_read_one_line.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_read_one_line.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o
 .PHONY : libmx/src/mx_read_one_line.c.o
 
 libmx/src/mx_read_one_line.i: libmx/src/mx_read_one_line.c.i
@@ -1326,7 +1326,7 @@ libmx/src/mx_read_one_line.i: libmx/src/mx_read_one_line.c.i
 
 # target to preprocess a source file
 libmx/src/mx_read_one_line.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_read_one_line.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.i
 .PHONY : libmx/src/mx_read_one_line.c.i
 
 libmx/src/mx_read_one_line.s: libmx/src/mx_read_one_line.c.s
@@ -1335,7 +1335,7 @@ libmx/src/mx_read_one_line.s: libmx/src/mx_read_one_line.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_read_one_line.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_read_one_line.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.s
 .PHONY : libmx/src/mx_read_one_line.c.s
 
 libmx/src/mx_realloc.o: libmx/src/mx_realloc.c.o
@@ -1344,7 +1344,7 @@ libmx/src/mx_realloc.o: libmx/src/mx_realloc.c.o
 
 # target to build an object file
 libmx/src/mx_realloc.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_realloc.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o
 .PHONY : libmx/src/mx_realloc.c.o
 
 libmx/src/mx_realloc.i: libmx/src/mx_realloc.c.i
@@ -1353,7 +1353,7 @@ libmx/src/mx_realloc.i: libmx/src/mx_realloc.c.i
 
 # target to preprocess a source file
 libmx/src/mx_realloc.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_realloc.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.i
 .PHONY : libmx/src/mx_realloc.c.i
 
 libmx/src/mx_realloc.s: libmx/src/mx_realloc.c.s
@@ -1362,7 +1362,7 @@ libmx/src/mx_realloc.s: libmx/src/mx_realloc.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_realloc.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_realloc.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.s
 .PHONY : libmx/src/mx_realloc.c.s
 
 libmx/src/mx_replace_substr.o: libmx/src/mx_replace_substr.c.o
@@ -1371,7 +1371,7 @@ libmx/src/mx_replace_substr.o: libmx/src/mx_replace_substr.c.o
 
 # target to build an object file
 libmx/src/mx_replace_substr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_replace_substr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o
 .PHONY : libmx/src/mx_replace_substr.c.o
 
 libmx/src/mx_replace_substr.i: libmx/src/mx_replace_substr.c.i
@@ -1380,7 +1380,7 @@ libmx/src/mx_replace_substr.i: libmx/src/mx_replace_substr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_replace_substr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_replace_substr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.i
 .PHONY : libmx/src/mx_replace_substr.c.i
 
 libmx/src/mx_replace_substr.s: libmx/src/mx_replace_substr.c.s
@@ -1389,7 +1389,7 @@ libmx/src/mx_replace_substr.s: libmx/src/mx_replace_substr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_replace_substr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_replace_substr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.s
 .PHONY : libmx/src/mx_replace_substr.c.s
 
 libmx/src/mx_sort_list.o: libmx/src/mx_sort_list.c.o
@@ -1398,7 +1398,7 @@ libmx/src/mx_sort_list.o: libmx/src/mx_sort_list.c.o
 
 # target to build an object file
 libmx/src/mx_sort_list.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sort_list.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o
 .PHONY : libmx/src/mx_sort_list.c.o
 
 libmx/src/mx_sort_list.i: libmx/src/mx_sort_list.c.i
@@ -1407,7 +1407,7 @@ libmx/src/mx_sort_list.i: libmx/src/mx_sort_list.c.i
 
 # target to preprocess a source file
 libmx/src/mx_sort_list.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sort_list.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.i
 .PHONY : libmx/src/mx_sort_list.c.i
 
 libmx/src/mx_sort_list.s: libmx/src/mx_sort_list.c.s
@@ -1416,7 +1416,7 @@ libmx/src/mx_sort_list.s: libmx/src/mx_sort_list.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_sort_list.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sort_list.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.s
 .PHONY : libmx/src/mx_sort_list.c.s
 
 libmx/src/mx_sqrt.o: libmx/src/mx_sqrt.c.o
@@ -1425,7 +1425,7 @@ libmx/src/mx_sqrt.o: libmx/src/mx_sqrt.c.o
 
 # target to build an object file
 libmx/src/mx_sqrt.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sqrt.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o
 .PHONY : libmx/src/mx_sqrt.c.o
 
 libmx/src/mx_sqrt.i: libmx/src/mx_sqrt.c.i
@@ -1434,7 +1434,7 @@ libmx/src/mx_sqrt.i: libmx/src/mx_sqrt.c.i
 
 # target to preprocess a source file
 libmx/src/mx_sqrt.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sqrt.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.i
 .PHONY : libmx/src/mx_sqrt.c.i
 
 libmx/src/mx_sqrt.s: libmx/src/mx_sqrt.c.s
@@ -1443,7 +1443,7 @@ libmx/src/mx_sqrt.s: libmx/src/mx_sqrt.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_sqrt.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_sqrt.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.s
 .PHONY : libmx/src/mx_sqrt.c.s
 
 libmx/src/mx_str_reverse.o: libmx/src/mx_str_reverse.c.o
@@ -1452,7 +1452,7 @@ libmx/src/mx_str_reverse.o: libmx/src/mx_str_reverse.c.o
 
 # target to build an object file
 libmx/src/mx_str_reverse.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_str_reverse.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o
 .PHONY : libmx/src/mx_str_reverse.c.o
 
 libmx/src/mx_str_reverse.i: libmx/src/mx_str_reverse.c.i
@@ -1461,7 +1461,7 @@ libmx/src/mx_str_reverse.i: libmx/src/mx_str_reverse.c.i
 
 # target to preprocess a source file
 libmx/src/mx_str_reverse.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_str_reverse.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.i
 .PHONY : libmx/src/mx_str_reverse.c.i
 
 libmx/src/mx_str_reverse.s: libmx/src/mx_str_reverse.c.s
@@ -1470,7 +1470,7 @@ libmx/src/mx_str_reverse.s: libmx/src/mx_str_reverse.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_str_reverse.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_str_reverse.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.s
 .PHONY : libmx/src/mx_str_reverse.c.s
 
 libmx/src/mx_strcat.o: libmx/src/mx_strcat.c.o
@@ -1479,7 +1479,7 @@ libmx/src/mx_strcat.o: libmx/src/mx_strcat.c.o
 
 # target to build an object file
 libmx/src/mx_strcat.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcat.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o
 .PHONY : libmx/src/mx_strcat.c.o
 
 libmx/src/mx_strcat.i: libmx/src/mx_strcat.c.i
@@ -1488,7 +1488,7 @@ libmx/src/mx_strcat.i: libmx/src/mx_strcat.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strcat.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcat.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.i
 .PHONY : libmx/src/mx_strcat.c.i
 
 libmx/src/mx_strcat.s: libmx/src/mx_strcat.c.s
@@ -1497,7 +1497,7 @@ libmx/src/mx_strcat.s: libmx/src/mx_strcat.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strcat.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcat.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.s
 .PHONY : libmx/src/mx_strcat.c.s
 
 libmx/src/mx_strcmp.o: libmx/src/mx_strcmp.c.o
@@ -1506,7 +1506,7 @@ libmx/src/mx_strcmp.o: libmx/src/mx_strcmp.c.o
 
 # target to build an object file
 libmx/src/mx_strcmp.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcmp.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o
 .PHONY : libmx/src/mx_strcmp.c.o
 
 libmx/src/mx_strcmp.i: libmx/src/mx_strcmp.c.i
@@ -1515,7 +1515,7 @@ libmx/src/mx_strcmp.i: libmx/src/mx_strcmp.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strcmp.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcmp.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.i
 .PHONY : libmx/src/mx_strcmp.c.i
 
 libmx/src/mx_strcmp.s: libmx/src/mx_strcmp.c.s
@@ -1524,7 +1524,7 @@ libmx/src/mx_strcmp.s: libmx/src/mx_strcmp.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strcmp.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcmp.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.s
 .PHONY : libmx/src/mx_strcmp.c.s
 
 libmx/src/mx_strcpy.o: libmx/src/mx_strcpy.c.o
@@ -1533,7 +1533,7 @@ libmx/src/mx_strcpy.o: libmx/src/mx_strcpy.c.o
 
 # target to build an object file
 libmx/src/mx_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcpy.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o
 .PHONY : libmx/src/mx_strcpy.c.o
 
 libmx/src/mx_strcpy.i: libmx/src/mx_strcpy.c.i
@@ -1542,7 +1542,7 @@ libmx/src/mx_strcpy.i: libmx/src/mx_strcpy.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcpy.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.i
 .PHONY : libmx/src/mx_strcpy.c.i
 
 libmx/src/mx_strcpy.s: libmx/src/mx_strcpy.c.s
@@ -1551,7 +1551,7 @@ libmx/src/mx_strcpy.s: libmx/src/mx_strcpy.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strcpy.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.s
 .PHONY : libmx/src/mx_strcpy.c.s
 
 libmx/src/mx_strdel.o: libmx/src/mx_strdel.c.o
@@ -1560,7 +1560,7 @@ libmx/src/mx_strdel.o: libmx/src/mx_strdel.c.o
 
 # target to build an object file
 libmx/src/mx_strdel.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdel.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o
 .PHONY : libmx/src/mx_strdel.c.o
 
 libmx/src/mx_strdel.i: libmx/src/mx_strdel.c.i
@@ -1569,7 +1569,7 @@ libmx/src/mx_strdel.i: libmx/src/mx_strdel.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strdel.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdel.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.i
 .PHONY : libmx/src/mx_strdel.c.i
 
 libmx/src/mx_strdel.s: libmx/src/mx_strdel.c.s
@@ -1578,7 +1578,7 @@ libmx/src/mx_strdel.s: libmx/src/mx_strdel.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strdel.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdel.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.s
 .PHONY : libmx/src/mx_strdel.c.s
 
 libmx/src/mx_strdup.o: libmx/src/mx_strdup.c.o
@@ -1587,7 +1587,7 @@ libmx/src/mx_strdup.o: libmx/src/mx_strdup.c.o
 
 # target to build an object file
 libmx/src/mx_strdup.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdup.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o
 .PHONY : libmx/src/mx_strdup.c.o
 
 libmx/src/mx_strdup.i: libmx/src/mx_strdup.c.i
@@ -1596,7 +1596,7 @@ libmx/src/mx_strdup.i: libmx/src/mx_strdup.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strdup.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdup.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.i
 .PHONY : libmx/src/mx_strdup.c.i
 
 libmx/src/mx_strdup.s: libmx/src/mx_strdup.c.s
@@ -1605,7 +1605,7 @@ libmx/src/mx_strdup.s: libmx/src/mx_strdup.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strdup.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strdup.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.s
 .PHONY : libmx/src/mx_strdup.c.s
 
 libmx/src/mx_strjoin.o: libmx/src/mx_strjoin.c.o
@@ -1614,7 +1614,7 @@ libmx/src/mx_strjoin.o: libmx/src/mx_strjoin.c.o
 
 # target to build an object file
 libmx/src/mx_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strjoin.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o
 .PHONY : libmx/src/mx_strjoin.c.o
 
 libmx/src/mx_strjoin.i: libmx/src/mx_strjoin.c.i
@@ -1623,7 +1623,7 @@ libmx/src/mx_strjoin.i: libmx/src/mx_strjoin.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strjoin.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.i
 .PHONY : libmx/src/mx_strjoin.c.i
 
 libmx/src/mx_strjoin.s: libmx/src/mx_strjoin.c.s
@@ -1632,7 +1632,7 @@ libmx/src/mx_strjoin.s: libmx/src/mx_strjoin.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strjoin.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.s
 .PHONY : libmx/src/mx_strjoin.c.s
 
 libmx/src/mx_strlen.o: libmx/src/mx_strlen.c.o
@@ -1641,7 +1641,7 @@ libmx/src/mx_strlen.o: libmx/src/mx_strlen.c.o
 
 # target to build an object file
 libmx/src/mx_strlen.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strlen.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o
 .PHONY : libmx/src/mx_strlen.c.o
 
 libmx/src/mx_strlen.i: libmx/src/mx_strlen.c.i
@@ -1650,7 +1650,7 @@ libmx/src/mx_strlen.i: libmx/src/mx_strlen.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strlen.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strlen.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.i
 .PHONY : libmx/src/mx_strlen.c.i
 
 libmx/src/mx_strlen.s: libmx/src/mx_strlen.c.s
@@ -1659,7 +1659,7 @@ libmx/src/mx_strlen.s: libmx/src/mx_strlen.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strlen.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strlen.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.s
 .PHONY : libmx/src/mx_strlen.c.s
 
 libmx/src/mx_strncmp.o: libmx/src/mx_strncmp.c.o
@@ -1668,7 +1668,7 @@ libmx/src/mx_strncmp.o: libmx/src/mx_strncmp.c.o
 
 # target to build an object file
 libmx/src/mx_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncmp.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o
 .PHONY : libmx/src/mx_strncmp.c.o
 
 libmx/src/mx_strncmp.i: libmx/src/mx_strncmp.c.i
@@ -1677,7 +1677,7 @@ libmx/src/mx_strncmp.i: libmx/src/mx_strncmp.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncmp.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.i
 .PHONY : libmx/src/mx_strncmp.c.i
 
 libmx/src/mx_strncmp.s: libmx/src/mx_strncmp.c.s
@@ -1686,7 +1686,7 @@ libmx/src/mx_strncmp.s: libmx/src/mx_strncmp.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncmp.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.s
 .PHONY : libmx/src/mx_strncmp.c.s
 
 libmx/src/mx_strncpy.o: libmx/src/mx_strncpy.c.o
@@ -1695,7 +1695,7 @@ libmx/src/mx_strncpy.o: libmx/src/mx_strncpy.c.o
 
 # target to build an object file
 libmx/src/mx_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncpy.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o
 .PHONY : libmx/src/mx_strncpy.c.o
 
 libmx/src/mx_strncpy.i: libmx/src/mx_strncpy.c.i
@@ -1704,7 +1704,7 @@ libmx/src/mx_strncpy.i: libmx/src/mx_strncpy.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncpy.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.i
 .PHONY : libmx/src/mx_strncpy.c.i
 
 libmx/src/mx_strncpy.s: libmx/src/mx_strncpy.c.s
@@ -1713,7 +1713,7 @@ libmx/src/mx_strncpy.s: libmx/src/mx_strncpy.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strncpy.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.s
 .PHONY : libmx/src/mx_strncpy.c.s
 
 libmx/src/mx_strndup.o: libmx/src/mx_strndup.c.o
@@ -1722,7 +1722,7 @@ libmx/src/mx_strndup.o: libmx/src/mx_strndup.c.o
 
 # target to build an object file
 libmx/src/mx_strndup.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strndup.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o
 .PHONY : libmx/src/mx_strndup.c.o
 
 libmx/src/mx_strndup.i: libmx/src/mx_strndup.c.i
@@ -1731,7 +1731,7 @@ libmx/src/mx_strndup.i: libmx/src/mx_strndup.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strndup.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strndup.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.i
 .PHONY : libmx/src/mx_strndup.c.i
 
 libmx/src/mx_strndup.s: libmx/src/mx_strndup.c.s
@@ -1740,7 +1740,7 @@ libmx/src/mx_strndup.s: libmx/src/mx_strndup.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strndup.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strndup.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.s
 .PHONY : libmx/src/mx_strndup.c.s
 
 libmx/src/mx_strnew.o: libmx/src/mx_strnew.c.o
@@ -1749,7 +1749,7 @@ libmx/src/mx_strnew.o: libmx/src/mx_strnew.c.o
 
 # target to build an object file
 libmx/src/mx_strnew.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strnew.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o
 .PHONY : libmx/src/mx_strnew.c.o
 
 libmx/src/mx_strnew.i: libmx/src/mx_strnew.c.i
@@ -1758,7 +1758,7 @@ libmx/src/mx_strnew.i: libmx/src/mx_strnew.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strnew.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strnew.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.i
 .PHONY : libmx/src/mx_strnew.c.i
 
 libmx/src/mx_strnew.s: libmx/src/mx_strnew.c.s
@@ -1767,7 +1767,7 @@ libmx/src/mx_strnew.s: libmx/src/mx_strnew.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strnew.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strnew.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.s
 .PHONY : libmx/src/mx_strnew.c.s
 
 libmx/src/mx_strsplit.o: libmx/src/mx_strsplit.c.o
@@ -1776,7 +1776,7 @@ libmx/src/mx_strsplit.o: libmx/src/mx_strsplit.c.o
 
 # target to build an object file
 libmx/src/mx_strsplit.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strsplit.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o
 .PHONY : libmx/src/mx_strsplit.c.o
 
 libmx/src/mx_strsplit.i: libmx/src/mx_strsplit.c.i
@@ -1785,7 +1785,7 @@ libmx/src/mx_strsplit.i: libmx/src/mx_strsplit.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strsplit.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strsplit.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.i
 .PHONY : libmx/src/mx_strsplit.c.i
 
 libmx/src/mx_strsplit.s: libmx/src/mx_strsplit.c.s
@@ -1794,7 +1794,7 @@ libmx/src/mx_strsplit.s: libmx/src/mx_strsplit.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strsplit.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strsplit.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.s
 .PHONY : libmx/src/mx_strsplit.c.s
 
 libmx/src/mx_strstr.o: libmx/src/mx_strstr.c.o
@@ -1803,7 +1803,7 @@ libmx/src/mx_strstr.o: libmx/src/mx_strstr.c.o
 
 # target to build an object file
 libmx/src/mx_strstr.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strstr.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o
 .PHONY : libmx/src/mx_strstr.c.o
 
 libmx/src/mx_strstr.i: libmx/src/mx_strstr.c.i
@@ -1812,7 +1812,7 @@ libmx/src/mx_strstr.i: libmx/src/mx_strstr.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strstr.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strstr.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.i
 .PHONY : libmx/src/mx_strstr.c.i
 
 libmx/src/mx_strstr.s: libmx/src/mx_strstr.c.s
@@ -1821,7 +1821,7 @@ libmx/src/mx_strstr.s: libmx/src/mx_strstr.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strstr.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strstr.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.s
 .PHONY : libmx/src/mx_strstr.c.s
 
 libmx/src/mx_strtrim.o: libmx/src/mx_strtrim.c.o
@@ -1830,7 +1830,7 @@ libmx/src/mx_strtrim.o: libmx/src/mx_strtrim.c.o
 
 # target to build an object file
 libmx/src/mx_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strtrim.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o
 .PHONY : libmx/src/mx_strtrim.c.o
 
 libmx/src/mx_strtrim.i: libmx/src/mx_strtrim.c.i
@@ -1839,7 +1839,7 @@ libmx/src/mx_strtrim.i: libmx/src/mx_strtrim.c.i
 
 # target to preprocess a source file
 libmx/src/mx_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strtrim.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.i
 .PHONY : libmx/src/mx_strtrim.c.i
 
 libmx/src/mx_strtrim.s: libmx/src/mx_strtrim.c.s
@@ -1848,7 +1848,7 @@ libmx/src/mx_strtrim.s: libmx/src/mx_strtrim.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_strtrim.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.s
 .PHONY : libmx/src/mx_strtrim.c.s
 
 libmx/src/mx_swap_char.o: libmx/src/mx_swap_char.c.o
@@ -1857,7 +1857,7 @@ libmx/src/mx_swap_char.o: libmx/src/mx_swap_char.c.o
 
 # target to build an object file
 libmx/src/mx_swap_char.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_swap_char.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o
 .PHONY : libmx/src/mx_swap_char.c.o
 
 libmx/src/mx_swap_char.i: libmx/src/mx_swap_char.c.i
@@ -1866,7 +1866,7 @@ libmx/src/mx_swap_char.i: libmx/src/mx_swap_char.c.i
 
 # target to preprocess a source file
 libmx/src/mx_swap_char.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_swap_char.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.i
 .PHONY : libmx/src/mx_swap_char.c.i
 
 libmx/src/mx_swap_char.s: libmx/src/mx_swap_char.c.s
@@ -1875,7 +1875,7 @@ libmx/src/mx_swap_char.s: libmx/src/mx_swap_char.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_swap_char.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_swap_char.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.s
 .PHONY : libmx/src/mx_swap_char.c.s
 
 libmx/src/mx_toupper.o: libmx/src/mx_toupper.c.o
@@ -1884,7 +1884,7 @@ libmx/src/mx_toupper.o: libmx/src/mx_toupper.c.o
 
 # target to build an object file
 libmx/src/mx_toupper.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_toupper.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o
 .PHONY : libmx/src/mx_toupper.c.o
 
 libmx/src/mx_toupper.i: libmx/src/mx_toupper.c.i
@@ -1893,7 +1893,7 @@ libmx/src/mx_toupper.i: libmx/src/mx_toupper.c.i
 
 # target to preprocess a source file
 libmx/src/mx_toupper.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_toupper.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.i
 .PHONY : libmx/src/mx_toupper.c.i
 
 libmx/src/mx_toupper.s: libmx/src/mx_toupper.c.s
@@ -1902,7 +1902,7 @@ libmx/src/mx_toupper.s: libmx/src/mx_toupper.c.s
 
 # target to generate assembly for a file
 libmx/src/mx_toupper.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/libmx/src/mx_toupper.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.s
 .PHONY : libmx/src/mx_toupper.c.s
 
 src/errors/mx_error1.o: src/errors/mx_error1.c.o
@@ -1911,7 +1911,7 @@ src/errors/mx_error1.o: src/errors/mx_error1.c.o
 
 # target to build an object file
 src/errors/mx_error1.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error1.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o
 .PHONY : src/errors/mx_error1.c.o
 
 src/errors/mx_error1.i: src/errors/mx_error1.c.i
@@ -1920,7 +1920,7 @@ src/errors/mx_error1.i: src/errors/mx_error1.c.i
 
 # target to preprocess a source file
 src/errors/mx_error1.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error1.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i
 .PHONY : src/errors/mx_error1.c.i
 
 src/errors/mx_error1.s: src/errors/mx_error1.c.s
@@ -1929,8 +1929,35 @@ src/errors/mx_error1.s: src/errors/mx_error1.c.s
 
 # target to generate assembly for a file
 src/errors/mx_error1.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error1.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s
 .PHONY : src/errors/mx_error1.c.s
+
+src/errors/mx_error_dup_bridges.o: src/errors/mx_error_dup_bridges.c.o
+
+.PHONY : src/errors/mx_error_dup_bridges.o
+
+# target to build an object file
+src/errors/mx_error_dup_bridges.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o
+.PHONY : src/errors/mx_error_dup_bridges.c.o
+
+src/errors/mx_error_dup_bridges.i: src/errors/mx_error_dup_bridges.c.i
+
+.PHONY : src/errors/mx_error_dup_bridges.i
+
+# target to preprocess a source file
+src/errors/mx_error_dup_bridges.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i
+.PHONY : src/errors/mx_error_dup_bridges.c.i
+
+src/errors/mx_error_dup_bridges.s: src/errors/mx_error_dup_bridges.c.s
+
+.PHONY : src/errors/mx_error_dup_bridges.s
+
+# target to generate assembly for a file
+src/errors/mx_error_dup_bridges.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s
+.PHONY : src/errors/mx_error_dup_bridges.c.s
 
 src/errors/mx_error_file_empty.o: src/errors/mx_error_file_empty.c.o
 
@@ -1938,7 +1965,7 @@ src/errors/mx_error_file_empty.o: src/errors/mx_error_file_empty.c.o
 
 # target to build an object file
 src/errors/mx_error_file_empty.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_empty.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o
 .PHONY : src/errors/mx_error_file_empty.c.o
 
 src/errors/mx_error_file_empty.i: src/errors/mx_error_file_empty.c.i
@@ -1947,7 +1974,7 @@ src/errors/mx_error_file_empty.i: src/errors/mx_error_file_empty.c.i
 
 # target to preprocess a source file
 src/errors/mx_error_file_empty.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_empty.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i
 .PHONY : src/errors/mx_error_file_empty.c.i
 
 src/errors/mx_error_file_empty.s: src/errors/mx_error_file_empty.c.s
@@ -1956,7 +1983,7 @@ src/errors/mx_error_file_empty.s: src/errors/mx_error_file_empty.c.s
 
 # target to generate assembly for a file
 src/errors/mx_error_file_empty.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_empty.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s
 .PHONY : src/errors/mx_error_file_empty.c.s
 
 src/errors/mx_error_file_invalid.o: src/errors/mx_error_file_invalid.c.o
@@ -1965,7 +1992,7 @@ src/errors/mx_error_file_invalid.o: src/errors/mx_error_file_invalid.c.o
 
 # target to build an object file
 src/errors/mx_error_file_invalid.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o
 .PHONY : src/errors/mx_error_file_invalid.c.o
 
 src/errors/mx_error_file_invalid.i: src/errors/mx_error_file_invalid.c.i
@@ -1974,7 +2001,7 @@ src/errors/mx_error_file_invalid.i: src/errors/mx_error_file_invalid.c.i
 
 # target to preprocess a source file
 src/errors/mx_error_file_invalid.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i
 .PHONY : src/errors/mx_error_file_invalid.c.i
 
 src/errors/mx_error_file_invalid.s: src/errors/mx_error_file_invalid.c.s
@@ -1983,7 +2010,7 @@ src/errors/mx_error_file_invalid.s: src/errors/mx_error_file_invalid.c.s
 
 # target to generate assembly for a file
 src/errors/mx_error_file_invalid.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s
 .PHONY : src/errors/mx_error_file_invalid.c.s
 
 src/errors/mx_error_file_invalid_2.o: src/errors/mx_error_file_invalid_2.c.o
@@ -1992,7 +2019,7 @@ src/errors/mx_error_file_invalid_2.o: src/errors/mx_error_file_invalid_2.c.o
 
 # target to build an object file
 src/errors/mx_error_file_invalid_2.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid_2.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o
 .PHONY : src/errors/mx_error_file_invalid_2.c.o
 
 src/errors/mx_error_file_invalid_2.i: src/errors/mx_error_file_invalid_2.c.i
@@ -2001,7 +2028,7 @@ src/errors/mx_error_file_invalid_2.i: src/errors/mx_error_file_invalid_2.c.i
 
 # target to preprocess a source file
 src/errors/mx_error_file_invalid_2.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid_2.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.i
 .PHONY : src/errors/mx_error_file_invalid_2.c.i
 
 src/errors/mx_error_file_invalid_2.s: src/errors/mx_error_file_invalid_2.c.s
@@ -2010,7 +2037,7 @@ src/errors/mx_error_file_invalid_2.s: src/errors/mx_error_file_invalid_2.c.s
 
 # target to generate assembly for a file
 src/errors/mx_error_file_invalid_2.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_invalid_2.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.s
 .PHONY : src/errors/mx_error_file_invalid_2.c.s
 
 src/errors/mx_error_file_or_dir.o: src/errors/mx_error_file_or_dir.c.o
@@ -2019,7 +2046,7 @@ src/errors/mx_error_file_or_dir.o: src/errors/mx_error_file_or_dir.c.o
 
 # target to build an object file
 src/errors/mx_error_file_or_dir.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_or_dir.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o
 .PHONY : src/errors/mx_error_file_or_dir.c.o
 
 src/errors/mx_error_file_or_dir.i: src/errors/mx_error_file_or_dir.c.i
@@ -2028,7 +2055,7 @@ src/errors/mx_error_file_or_dir.i: src/errors/mx_error_file_or_dir.c.i
 
 # target to preprocess a source file
 src/errors/mx_error_file_or_dir.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_or_dir.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i
 .PHONY : src/errors/mx_error_file_or_dir.c.i
 
 src/errors/mx_error_file_or_dir.s: src/errors/mx_error_file_or_dir.c.s
@@ -2037,7 +2064,7 @@ src/errors/mx_error_file_or_dir.s: src/errors/mx_error_file_or_dir.c.s
 
 # target to generate assembly for a file
 src/errors/mx_error_file_or_dir.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_error_file_or_dir.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s
 .PHONY : src/errors/mx_error_file_or_dir.c.s
 
 src/errors/mx_errors_isl.o: src/errors/mx_errors_isl.c.o
@@ -2046,7 +2073,7 @@ src/errors/mx_errors_isl.o: src/errors/mx_errors_isl.c.o
 
 # target to build an object file
 src/errors/mx_errors_isl.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_isl.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o
 .PHONY : src/errors/mx_errors_isl.c.o
 
 src/errors/mx_errors_isl.i: src/errors/mx_errors_isl.c.i
@@ -2055,7 +2082,7 @@ src/errors/mx_errors_isl.i: src/errors/mx_errors_isl.c.i
 
 # target to preprocess a source file
 src/errors/mx_errors_isl.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_isl.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i
 .PHONY : src/errors/mx_errors_isl.c.i
 
 src/errors/mx_errors_isl.s: src/errors/mx_errors_isl.c.s
@@ -2064,7 +2091,7 @@ src/errors/mx_errors_isl.s: src/errors/mx_errors_isl.c.s
 
 # target to generate assembly for a file
 src/errors/mx_errors_isl.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_isl.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s
 .PHONY : src/errors/mx_errors_isl.c.s
 
 src/errors/mx_errors_islands.o: src/errors/mx_errors_islands.c.o
@@ -2073,7 +2100,7 @@ src/errors/mx_errors_islands.o: src/errors/mx_errors_islands.c.o
 
 # target to build an object file
 src/errors/mx_errors_islands.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_islands.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o
 .PHONY : src/errors/mx_errors_islands.c.o
 
 src/errors/mx_errors_islands.i: src/errors/mx_errors_islands.c.i
@@ -2082,7 +2109,7 @@ src/errors/mx_errors_islands.i: src/errors/mx_errors_islands.c.i
 
 # target to preprocess a source file
 src/errors/mx_errors_islands.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_islands.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i
 .PHONY : src/errors/mx_errors_islands.c.i
 
 src/errors/mx_errors_islands.s: src/errors/mx_errors_islands.c.s
@@ -2091,7 +2118,7 @@ src/errors/mx_errors_islands.s: src/errors/mx_errors_islands.c.s
 
 # target to generate assembly for a file
 src/errors/mx_errors_islands.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_islands.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s
 .PHONY : src/errors/mx_errors_islands.c.s
 
 src/errors/mx_errors_main.o: src/errors/mx_errors_main.c.o
@@ -2100,7 +2127,7 @@ src/errors/mx_errors_main.o: src/errors/mx_errors_main.c.o
 
 # target to build an object file
 src/errors/mx_errors_main.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_main.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o
 .PHONY : src/errors/mx_errors_main.c.o
 
 src/errors/mx_errors_main.i: src/errors/mx_errors_main.c.i
@@ -2109,7 +2136,7 @@ src/errors/mx_errors_main.i: src/errors/mx_errors_main.c.i
 
 # target to preprocess a source file
 src/errors/mx_errors_main.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_main.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i
 .PHONY : src/errors/mx_errors_main.c.i
 
 src/errors/mx_errors_main.s: src/errors/mx_errors_main.c.s
@@ -2118,7 +2145,7 @@ src/errors/mx_errors_main.s: src/errors/mx_errors_main.c.s
 
 # target to generate assembly for a file
 src/errors/mx_errors_main.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/errors/mx_errors_main.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s
 .PHONY : src/errors/mx_errors_main.c.s
 
 src/main/main.o: src/main/main.c.o
@@ -2127,7 +2154,7 @@ src/main/main.o: src/main/main.c.o
 
 # target to build an object file
 src/main/main.c.o:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/main/main.c.o
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main/main.c.o
 .PHONY : src/main/main.c.o
 
 src/main/main.i: src/main/main.c.i
@@ -2136,7 +2163,7 @@ src/main/main.i: src/main/main.c.i
 
 # target to preprocess a source file
 src/main/main.c.i:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/main/main.c.i
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main/main.c.i
 .PHONY : src/main/main.c.i
 
 src/main/main.s: src/main/main.c.s
@@ -2145,7 +2172,7 @@ src/main/main.s: src/main/main.c.s
 
 # target to generate assembly for a file
 src/main/main.c.s:
-	$(MAKE) -f CMakeFiles/PathFinder.dir/build.make CMakeFiles/PathFinder.dir/src/main/main.c.s
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main/main.c.s
 .PHONY : src/main/main.c.s
 
 # Help Target
@@ -2156,7 +2183,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... PathFinder"
+	@echo "... pathfinder"
 	@echo "... libmx/src/mx_atoi.o"
 	@echo "... libmx/src/mx_atoi.i"
 	@echo "... libmx/src/mx_atoi.s"
@@ -2358,6 +2385,9 @@ help:
 	@echo "... src/errors/mx_error1.o"
 	@echo "... src/errors/mx_error1.i"
 	@echo "... src/errors/mx_error1.s"
+	@echo "... src/errors/mx_error_dup_bridges.o"
+	@echo "... src/errors/mx_error_dup_bridges.i"
+	@echo "... src/errors/mx_error_dup_bridges.s"
 	@echo "... src/errors/mx_error_file_empty.o"
 	@echo "... src/errors/mx_error_file_empty.i"
 	@echo "... src/errors/mx_error_file_empty.s"

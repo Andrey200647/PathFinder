@@ -2,50 +2,50 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="PathFinder"/>
+		<Option title="pathfinder"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug"/>
+				<Option working_dir="/Users/anechytail/CLionProjects/jopa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug"/>
+				<Option working_dir="/Users/anechytail/CLionProjects/jopa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug"/>
+				<Option working_dir="/Users/anechytail/CLionProjects/jopa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PathFinder">
-				<Option output="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/PathFinder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug"/>
+			<Target title="pathfinder">
+				<Option output="/Users/anechytail/CLionProjects/jopa/cmake-build-debug/pathfinder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anechytail/CLionProjects/jopa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/anechytail/CLionProjects/pathfinder1/inc"/>
-					<Add directory="/Users/anechytail/CLionProjects/pathfinder1/libmx/inc"/>
+					<Add directory="/Users/anechytail/CLionProjects/jopa/inc"/>
+					<Add directory="/Users/anechytail/CLionProjects/jopa/libmx/inc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -53,21 +53,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PathFinder"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 pathfinder"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PathFinder/fast">
-				<Option output="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/PathFinder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug"/>
+			<Target title="pathfinder/fast">
+				<Option output="/Users/anechytail/CLionProjects/jopa/cmake-build-debug/pathfinder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anechytail/CLionProjects/jopa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/anechytail/CLionProjects/pathfinder1/inc"/>
-					<Add directory="/Users/anechytail/CLionProjects/pathfinder1/libmx/inc"/>
+					<Add directory="/Users/anechytail/CLionProjects/jopa/inc"/>
+					<Add directory="/Users/anechytail/CLionProjects/jopa/libmx/inc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -75,245 +75,248 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PathFinder/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/pathfinder1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 pathfinder/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anechytail/CLionProjects/jopa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/inc/pathfinder.h">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/inc/pathfinder.h">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/inc/libmx.h">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/inc/libmx.h">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_atoi.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_atoi.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_binary_search.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_binary_search.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_bubble_sort.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_bubble_sort.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_count_substr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_substr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_count_words.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_words.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_create_node.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_create_node.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_del_extra_spaces.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_extra_spaces.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_del_not_alphabet.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_not_alphabet.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_del_strarr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_strarr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_file_to_str.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_file_to_str.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_foreach.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_foreach.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_get_char_index.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_char_index.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_get_substr_index.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_substr_index.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_hex_to_nbr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_hex_to_nbr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_in_alphabet.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_in_alphabet.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_is_odd.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_is_odd.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_isalpha.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isalpha.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_isdigit.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isdigit.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_islower.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_islower.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_isupper.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isupper.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_itoa.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_itoa.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_list_size.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_list_size.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memccpy.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memccpy.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memchr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memchr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memcmp.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcmp.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memcpy.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcpy.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memmem.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmem.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memmove.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmove.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memrchr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memrchr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_memset.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memset.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_nbr_length.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_length.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_nbr_to_hex.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_to_hex.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_pop_back.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_back.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_pop_front.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_front.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_pow.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pow.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_print_strarr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_strarr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_print_unicode.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_unicode.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_printchar.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printchar.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_printerr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printerr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_printint.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printint.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_printstr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printstr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_push_back.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_back.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_push_front.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_front.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_quicksort.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_quicksort.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_read_one_line.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_read_one_line.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_realloc.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_realloc.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_replace_substr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_replace_substr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_sort_list.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_sort_list.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_sqrt.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_sqrt.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_str_reverse.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_str_reverse.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strcat.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcat.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strcmp.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcmp.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strcpy.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcpy.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strdel.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdel.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strdup.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdup.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strjoin.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strjoin.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strlen.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strlen.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strncmp.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncmp.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strncpy.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncpy.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strndup.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strndup.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strnew.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strnew.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strsplit.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strsplit.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strstr.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strstr.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_strtrim.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strtrim.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_swap_char.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_swap_char.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/libmx/src/mx_toupper.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_toupper.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_error1.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_error_file_empty.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_error_file_invalid.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_error_file_invalid_2.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_error_file_or_dir.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid_2.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_errors_isl.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_errors_islands.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/errors/mx_errors_main.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/src/main/main.c">
-			<Option target="PathFinder"/>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c">
+			<Option target="pathfinder"/>
 		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/pathfinder1/CMakeLists.txt">
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/main/main.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
