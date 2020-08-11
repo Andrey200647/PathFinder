@@ -57,70 +57,70 @@ include CMakeFiles/pathfinder.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pathfinder.dir/flags.make
 
-CMakeFiles/pathfinder.dir/src/main/main.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/main/main.c.o: ../src/main/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pathfinder.dir/src/main/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/main/main.c.o   -c /Users/anechytail/CLionProjects/jopa/src/main/main.c
+CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o: ../src/errors/mx_len_of_bridges.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c
 
-CMakeFiles/pathfinder.dir/src/main/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/main/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/main/main.c > CMakeFiles/pathfinder.dir/src/main/main.c.i
+CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c > CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.i
 
-CMakeFiles/pathfinder.dir/src/main/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/main/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/main/main.c -o CMakeFiles/pathfinder.dir/src/main/main.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c -o CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.s
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o: ../src/errors/mx_errors_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c
+CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o: ../src/errors/mx_error_dup_bridges.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i
+CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o: ../src/errors/mx_errors_islands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c
+CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o: ../src/errors/mx_error1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i
+CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c > CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o: ../src/errors/mx_errors_isl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o: ../src/errors/mx_error_file_empty.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i
 
-CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s
 
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o: ../src/errors/mx_error_file_or_dir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o: ../src/errors/mx_error_file_invalid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c
 
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i
 
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s
 
 CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o: CMakeFiles/pathfinder.dir/flags.make
 CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o: ../src/errors/mx_error_file_invalid_2.c
@@ -135,1077 +135,147 @@ CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid_2.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.s
 
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o: ../src/errors/mx_error_file_invalid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.i
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_invalid.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.s
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o: ../src/errors/mx_error_file_empty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.i
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_empty.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.s
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o: ../src/errors/mx_error1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c > CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.i
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.s
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o: ../src/errors/mx_error_dup_bridges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.i
-
-CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o: ../libmx/src/mx_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_atoi.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_atoi.c > CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_atoi.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o: ../libmx/src/mx_binary_search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_binary_search.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_binary_search.c > CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_binary_search.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o: ../libmx/src/mx_bubble_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_bubble_sort.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_bubble_sort.c > CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_bubble_sort.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o: ../libmx/src/mx_count_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_substr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_substr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_substr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_words.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_words.c > CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_words.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_create_node.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_create_node.c > CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_create_node.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_extra_spaces.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_extra_spaces.c > CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_extra_spaces.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o: ../libmx/src/mx_del_not_alphabet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_not_alphabet.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_not_alphabet.c > CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_not_alphabet.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o: ../libmx/src/mx_del_strarr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_strarr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_strarr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_strarr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o: ../libmx/src/mx_file_to_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_file_to_str.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_file_to_str.c > CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_file_to_str.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o: ../libmx/src/mx_foreach.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_foreach.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_foreach.c > CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_foreach.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o: ../libmx/src/mx_get_char_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_char_index.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_char_index.c > CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_char_index.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o: ../libmx/src/mx_get_substr_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_substr_index.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_substr_index.c > CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_substr_index.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o: ../libmx/src/mx_hex_to_nbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_hex_to_nbr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_hex_to_nbr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_hex_to_nbr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o: ../libmx/src/mx_in_alphabet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_in_alphabet.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_in_alphabet.c > CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_in_alphabet.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o: ../libmx/src/mx_is_odd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_is_odd.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_is_odd.c > CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_is_odd.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o: ../libmx/src/mx_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isalpha.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isalpha.c > CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isalpha.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o: ../libmx/src/mx_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isdigit.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isdigit.c > CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isdigit.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o: ../libmx/src/mx_islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_islower.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_islower.c > CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_islower.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o: ../libmx/src/mx_isupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isupper.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isupper.c > CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_isupper.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o: ../libmx/src/mx_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_itoa.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_itoa.c > CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_itoa.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o: ../libmx/src/mx_list_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_list_size.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_list_size.c > CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_list_size.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o: ../libmx/src/mx_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memccpy.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memccpy.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memccpy.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o: ../libmx/src/mx_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memchr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memchr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memchr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o: ../libmx/src/mx_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcmp.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcmp.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcmp.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o: ../libmx/src/mx_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcpy.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcpy.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcpy.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o: ../libmx/src/mx_memmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmem.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmem.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmem.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o: ../libmx/src/mx_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmove.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmove.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmove.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o: ../libmx/src/mx_memrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memrchr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memrchr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memrchr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o: ../libmx/src/mx_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memset.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memset.c > CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_memset.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o: ../libmx/src/mx_nbr_length.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_length.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_length.c > CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_length.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o: ../libmx/src/mx_nbr_to_hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_to_hex.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_to_hex.c > CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_to_hex.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o: ../libmx/src/mx_pop_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_back.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_back.c > CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_back.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o: ../libmx/src/mx_pop_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_front.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_front.c > CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_front.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o: ../libmx/src/mx_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pow.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pow.c > CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_pow.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o: ../libmx/src/mx_print_strarr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_strarr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_strarr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_strarr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o: ../libmx/src/mx_print_unicode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_unicode.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_unicode.c > CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_unicode.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o: ../libmx/src/mx_printchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printchar.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printchar.c > CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printchar.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o: ../libmx/src/mx_printerr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printerr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printerr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printerr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o: ../libmx/src/mx_printint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printint.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printint.c > CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printint.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o: ../libmx/src/mx_printstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printstr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printstr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_printstr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_back.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_back.c > CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_back.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_front.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_front.c > CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_front.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o: ../libmx/src/mx_quicksort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_quicksort.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_quicksort.c > CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_quicksort.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o: ../libmx/src/mx_read_one_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_read_one_line.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_read_one_line.c > CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_read_one_line.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o: ../libmx/src/mx_realloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_realloc.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_realloc.c > CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_realloc.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o: ../libmx/src/mx_replace_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_replace_substr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_replace_substr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_replace_substr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o: ../libmx/src/mx_sort_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sort_list.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sort_list.c > CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sort_list.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o: ../libmx/src/mx_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sqrt.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sqrt.c > CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_sqrt.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o: ../libmx/src/mx_str_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_str_reverse.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_str_reverse.c > CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_str_reverse.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o: ../libmx/src/mx_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcat.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcat.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcat.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o: ../libmx/src/mx_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcmp.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcmp.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcmp.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o: ../libmx/src/mx_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcpy.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcpy.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcpy.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o: ../libmx/src/mx_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdel.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdel.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdel.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o: ../libmx/src/mx_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdup.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdup.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdup.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o: ../libmx/src/mx_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strjoin.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strjoin.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strjoin.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o: ../libmx/src/mx_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strlen.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strlen.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strlen.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o: ../libmx/src/mx_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncmp.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncmp.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncmp.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o: ../libmx/src/mx_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncpy.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncpy.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncpy.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o: ../libmx/src/mx_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strndup.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strndup.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strndup.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o: ../libmx/src/mx_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strnew.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strnew.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strnew.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o: ../libmx/src/mx_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strsplit.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strsplit.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strsplit.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o: ../libmx/src/mx_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strstr.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strstr.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strstr.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o: ../libmx/src/mx_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strtrim.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strtrim.c > CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_strtrim.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o: ../libmx/src/mx_swap_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_swap_char.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_swap_char.c > CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_swap_char.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.s
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o: ../libmx/src/mx_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o   -c /Users/anechytail/CLionProjects/jopa/libmx/src/mx_toupper.c
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/libmx/src/mx_toupper.c > CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.i
-
-CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/libmx/src/mx_toupper.c -o CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.s
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o: ../src/errors/mx_error_file_or_dir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c
+
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c > CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.i
+
+CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_error_file_or_dir.c -o CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.s
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o: ../src/errors/mx_errors_isl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.i
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_isl.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.s
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o: ../src/errors/mx_errors_islands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.i
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_islands.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.s
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o: ../src/errors/mx_errors_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c > CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.i
+
+CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c -o CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.s
+
+CMakeFiles/pathfinder.dir/src/main/main.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/main/main.c.o: ../src/main/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pathfinder.dir/src/main/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/main/main.c.o   -c /Users/anechytail/CLionProjects/jopa/src/main/main.c
+
+CMakeFiles/pathfinder.dir/src/main/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/main/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/main/main.c > CMakeFiles/pathfinder.dir/src/main/main.c.i
+
+CMakeFiles/pathfinder.dir/src/main/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/main/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/main/main.c -o CMakeFiles/pathfinder.dir/src/main/main.c.s
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o: ../src/matrix/mx_int_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o   -c /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c > CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.i
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c -o CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.s
+
+CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o: ../src/errors/mx_big_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o   -c /Users/anechytail/CLionProjects/jopa/src/errors/mx_big_name.c
+
+CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/errors/mx_big_name.c > CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.i
+
+CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/errors/mx_big_name.c -o CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.s
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../src/matrix/mx_int_matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o   -c /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c > CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.i
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c -o CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.s
 
 # Object files for target pathfinder
 pathfinder_OBJECTS = \
-"CMakeFiles/pathfinder.dir/src/main/main.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o" \
-"CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o" \
 "CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o" \
-"CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o"
+"CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o" \
+"CMakeFiles/pathfinder.dir/src/main/main.c.o" \
+"CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o" \
+"CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o" \
+"CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o"
 
 # External object files for target pathfinder
 pathfinder_EXTERNAL_OBJECTS =
 
-pathfinder: CMakeFiles/pathfinder.dir/src/main/main.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o
-pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o
 pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_dup_bridges.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_atoi.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_binary_search.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_bubble_sort.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_count_substr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_count_words.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_create_node.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_del_extra_spaces.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_del_not_alphabet.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_del_strarr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_file_to_str.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_foreach.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_get_char_index.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_get_substr_index.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_hex_to_nbr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_in_alphabet.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_is_odd.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_isalpha.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_isdigit.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_islower.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_isupper.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_itoa.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_list_size.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memccpy.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memchr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memcmp.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memcpy.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memmem.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memmove.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memrchr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_memset.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_length.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_nbr_to_hex.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_pop_back.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_pop_front.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_pow.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_print_strarr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_print_unicode.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_printchar.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_printerr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_printint.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_printstr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_push_back.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_push_front.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_quicksort.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_read_one_line.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_realloc.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_replace_substr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_sort_list.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_sqrt.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_str_reverse.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strcat.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strcmp.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strcpy.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strdel.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strdup.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strjoin.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strlen.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strncmp.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strncpy.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strndup.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strnew.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strsplit.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strstr.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_strtrim.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_swap_char.c.o
-pathfinder: CMakeFiles/pathfinder.dir/libmx/src/mx_toupper.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error1.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_empty.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_invalid_2.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_error_file_or_dir.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_isl.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_islands.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/main/main.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/errors/mx_big_name.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o
 pathfinder: CMakeFiles/pathfinder.dir/build.make
 pathfinder: CMakeFiles/pathfinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking C executable pathfinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable pathfinder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pathfinder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

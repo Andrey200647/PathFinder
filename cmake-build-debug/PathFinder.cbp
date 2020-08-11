@@ -82,208 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/inc/pathfinder.h">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/inc/libmx.h">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_atoi.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_binary_search.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_bubble_sort.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_substr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_count_words.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_create_node.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_extra_spaces.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_not_alphabet.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_del_strarr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_file_to_str.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_foreach.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_char_index.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_get_substr_index.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_hex_to_nbr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_in_alphabet.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_is_odd.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isalpha.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isdigit.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_islower.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_isupper.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_itoa.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_list_size.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memccpy.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memchr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcmp.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memcpy.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmem.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memmove.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memrchr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_memset.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_length.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_nbr_to_hex.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_back.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pop_front.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_pow.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_strarr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_print_unicode.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printchar.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printerr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printint.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_printstr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_back.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_push_front.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_quicksort.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_read_one_line.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_realloc.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_replace_substr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_sort_list.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_sqrt.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_str_reverse.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcat.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcmp.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strcpy.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdel.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strdup.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strjoin.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strlen.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncmp.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strncpy.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strndup.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strnew.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strsplit.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strstr.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_strtrim.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_swap_char.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/anechytail/CLionProjects/jopa/libmx/src/mx_toupper.c">
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_big_name.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_error1.c">
@@ -313,7 +112,16 @@
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c">
 			<Option target="pathfinder"/>
 		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c">
+			<Option target="pathfinder"/>
+		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/main/main.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/CMakeLists.txt">
