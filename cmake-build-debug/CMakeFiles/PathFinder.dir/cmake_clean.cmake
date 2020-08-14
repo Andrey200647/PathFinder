@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o"
   "CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o"
   "CMakeFiles/pathfinder.dir/src/main/main.c.o"
+  "CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o"
   "CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o"
   "CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o"
   "pathfinder"

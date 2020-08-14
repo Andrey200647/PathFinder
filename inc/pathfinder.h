@@ -38,11 +38,7 @@ void mx_error_dup_bridges(char *file);
 void mx_len_of_bridges(char *file);
 void mx_int_string(char *file, t_matrix *mat);
 int mx_big_name(char **array, int len);
-void mx_int_matrix(char *file, bridges **big_array, t_matrix *mat);
-bridges **mx_big_array_init(char *file);
-
-
-
-
+bridges **mx_big_array_init(char *file, t_matrix *mat);
+char **mx_append_city_to_arr(char *string);
 
 #endif

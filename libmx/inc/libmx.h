@@ -81,6 +81,7 @@ int mx_atoi(const char *str);
 char *mx_read_one_line(int file);
 void mx_del_not_alphabet(char *string);
 bool mx_in_alphabet(char a);
+bool mx_is_number(char a);
 
 
 #endif

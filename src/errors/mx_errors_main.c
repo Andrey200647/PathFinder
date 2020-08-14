@@ -17,6 +17,7 @@ void mx_errors_main(int argc, char *argv[1], t_matrix *mat) {
     mx_errors_islands(string, mat);
     mx_error_dup_bridges(argv[1]);
     mx_len_of_bridges(argv[1]);
+
     mx_strdel(&string);
 
 }

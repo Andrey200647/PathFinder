@@ -447,6 +447,33 @@ src/main/main.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main/main.c.s
 .PHONY : src/main/main.c.s
 
+src/matrix/mx_city_to_arr.o: src/matrix/mx_city_to_arr.c.o
+
+.PHONY : src/matrix/mx_city_to_arr.o
+
+# target to build an object file
+src/matrix/mx_city_to_arr.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o
+.PHONY : src/matrix/mx_city_to_arr.c.o
+
+src/matrix/mx_city_to_arr.i: src/matrix/mx_city_to_arr.c.i
+
+.PHONY : src/matrix/mx_city_to_arr.i
+
+# target to preprocess a source file
+src/matrix/mx_city_to_arr.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.i
+.PHONY : src/matrix/mx_city_to_arr.c.i
+
+src/matrix/mx_city_to_arr.s: src/matrix/mx_city_to_arr.c.s
+
+.PHONY : src/matrix/mx_city_to_arr.s
+
+# target to generate assembly for a file
+src/matrix/mx_city_to_arr.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.s
+.PHONY : src/matrix/mx_city_to_arr.c.s
+
 src/matrix/mx_int_matrix.o: src/matrix/mx_int_matrix.c.o
 
 .PHONY : src/matrix/mx_int_matrix.o
@@ -546,6 +573,9 @@ help:
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"
+	@echo "... src/matrix/mx_city_to_arr.o"
+	@echo "... src/matrix/mx_city_to_arr.i"
+	@echo "... src/matrix/mx_city_to_arr.s"
 	@echo "... src/matrix/mx_int_matrix.o"
 	@echo "... src/matrix/mx_int_matrix.i"
 	@echo "... src/matrix/mx_int_matrix.s"

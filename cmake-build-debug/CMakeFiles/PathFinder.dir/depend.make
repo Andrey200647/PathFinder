@@ -49,6 +49,10 @@ CMakeFiles/pathfinder.dir/src/main/main.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/main/main.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/main/main.c.o: ../src/main/main.c
 
+CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../src/matrix/mx_city_to_arr.c
+
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../src/matrix/mx_int_matrix.c

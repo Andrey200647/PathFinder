@@ -23,5 +23,4 @@ void mx_int_string(char *file, t_matrix *mat) {
     mx_strdel(&mat->array[points - 1]);
     mx_del_strarr(&mat->array);
     mx_strdel(&string);
-    //mx_print_strarr(mat->third_arr, " ");
 }

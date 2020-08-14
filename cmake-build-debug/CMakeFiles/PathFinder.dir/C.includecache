@@ -40,7 +40,7 @@ stdio.h
 fcntl.h
 -
 
-/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c
+/Users/anechytail/CLionProjects/jopa/src/errors/mx_error_dup_bridges.c
 pathfinder.h
-/Users/anechytail/CLionProjects/jopa/src/matrix/pathfinder.h
+/Users/anechytail/CLionProjects/jopa/src/errors/pathfinder.h
 

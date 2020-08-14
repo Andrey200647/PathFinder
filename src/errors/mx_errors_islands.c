@@ -15,6 +15,7 @@ char **mx_errors_islands(char *string, t_matrix *mat) {
 
     int a = mx_atoi(string);
     mx_del_not_alphabet(string);
+
     int points = mx_count_words(string, ' ');
     mat->array = mx_strsplit(string, ' ');
     for (int i = 0; i < points; i++) {

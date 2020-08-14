@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/main/main.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/main/main.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_city_to_arr.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o"
   )

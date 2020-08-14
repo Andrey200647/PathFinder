@@ -118,6 +118,9 @@
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/main/main.c">
 			<Option target="pathfinder"/>
 		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_city_to_arr.c">
+			<Option target="pathfinder"/>
+		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c">
 			<Option target="pathfinder"/>
 		</Unit>

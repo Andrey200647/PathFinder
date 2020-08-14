@@ -49,6 +49,10 @@ CMakeFiles/pathfinder.dir/src/main/main.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
  /Users/anechytail/CLionProjects/jopa/src/main/main.c
+CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o
+ ../inc/pathfinder.h
+ ../libmx/inc/libmx.h
+ /Users/anechytail/CLionProjects/jopa/src/matrix/mx_city_to_arr.c
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
