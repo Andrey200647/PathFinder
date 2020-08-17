@@ -118,13 +118,28 @@
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/main/main.c">
 			<Option target="pathfinder"/>
 		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_back.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_backtrack_int.c">
+			<Option target="pathfinder"/>
+		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_city_to_arr.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_find_path.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_algoritm.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/anechytail/CLionProjects/jopa/src/matrix/mx_print_path.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/anechytail/CLionProjects/jopa/CMakeLists.txt">

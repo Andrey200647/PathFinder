@@ -16,9 +16,14 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/anechytail/CLionProjects/jopa/src/errors/mx_errors_main.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/errors/mx_errors_main.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/errors/mx_len_of_bridges.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/errors/mx_len_of_bridges.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/main/main.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/main/main.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_back.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_backtrack_int.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_city_to_arr.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_find_path.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_algoritm.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_matrix.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o"
   "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_int_string.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o"
+  "/Users/anechytail/CLionProjects/jopa/src/matrix/mx_print_path.c" "/Users/anechytail/CLionProjects/jopa/cmake-build-debug/CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

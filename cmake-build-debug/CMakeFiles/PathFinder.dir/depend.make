@@ -49,9 +49,25 @@ CMakeFiles/pathfinder.dir/src/main/main.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/main/main.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/main/main.c.o: ../src/main/main.c
 
+CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.o: ../src/matrix/mx_back.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.o: ../src/matrix/mx_backtrack_int.c
+
 CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.o: ../src/matrix/mx_city_to_arr.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.o: ../src/matrix/mx_find_path.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.o: ../src/matrix/mx_int_algoritm.c
 
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../libmx/inc/libmx.h
@@ -60,4 +76,8 @@ CMakeFiles/pathfinder.dir/src/matrix/mx_int_matrix.c.o: ../src/matrix/mx_int_mat
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.o: ../src/matrix/mx_int_string.c
+
+CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.o: ../src/matrix/mx_print_path.c
 

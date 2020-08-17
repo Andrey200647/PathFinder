@@ -5,7 +5,8 @@ void mx_int_string(char *file, t_matrix *mat) {
     int i = 0;
     char *string = mx_file_to_str(file);
     int number_of_original_points = 0;
-    mat->array = mx_errors_islands(string, mat);
+    int a;
+    mat->array = mx_errors_islands(string, mat, &a);
     int points = mx_count_words(string, ' ');
 
     for (int j = 0; j < points; ++j) {

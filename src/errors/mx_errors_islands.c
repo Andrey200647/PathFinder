@@ -9,7 +9,7 @@ static void check_result(int a, int result) {
 }
 
 
-char **mx_errors_islands(char *string, t_matrix *mat) {
+char **mx_errors_islands(char *string, t_matrix *mat, int *len) {
     int count = 0;
     int non_points;
 
@@ -30,6 +30,7 @@ char **mx_errors_islands(char *string, t_matrix *mat) {
     }
     non_points = points - count;
     check_result(a, non_points);
+    *len = points;
     return mat->array;
 }
 

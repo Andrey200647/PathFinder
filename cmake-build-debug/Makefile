@@ -447,6 +447,60 @@ src/main/main.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main/main.c.s
 .PHONY : src/main/main.c.s
 
+src/matrix/mx_back.o: src/matrix/mx_back.c.o
+
+.PHONY : src/matrix/mx_back.o
+
+# target to build an object file
+src/matrix/mx_back.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.o
+.PHONY : src/matrix/mx_back.c.o
+
+src/matrix/mx_back.i: src/matrix/mx_back.c.i
+
+.PHONY : src/matrix/mx_back.i
+
+# target to preprocess a source file
+src/matrix/mx_back.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.i
+.PHONY : src/matrix/mx_back.c.i
+
+src/matrix/mx_back.s: src/matrix/mx_back.c.s
+
+.PHONY : src/matrix/mx_back.s
+
+# target to generate assembly for a file
+src/matrix/mx_back.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_back.c.s
+.PHONY : src/matrix/mx_back.c.s
+
+src/matrix/mx_backtrack_int.o: src/matrix/mx_backtrack_int.c.o
+
+.PHONY : src/matrix/mx_backtrack_int.o
+
+# target to build an object file
+src/matrix/mx_backtrack_int.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.o
+.PHONY : src/matrix/mx_backtrack_int.c.o
+
+src/matrix/mx_backtrack_int.i: src/matrix/mx_backtrack_int.c.i
+
+.PHONY : src/matrix/mx_backtrack_int.i
+
+# target to preprocess a source file
+src/matrix/mx_backtrack_int.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.i
+.PHONY : src/matrix/mx_backtrack_int.c.i
+
+src/matrix/mx_backtrack_int.s: src/matrix/mx_backtrack_int.c.s
+
+.PHONY : src/matrix/mx_backtrack_int.s
+
+# target to generate assembly for a file
+src/matrix/mx_backtrack_int.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_backtrack_int.c.s
+.PHONY : src/matrix/mx_backtrack_int.c.s
+
 src/matrix/mx_city_to_arr.o: src/matrix/mx_city_to_arr.c.o
 
 .PHONY : src/matrix/mx_city_to_arr.o
@@ -473,6 +527,60 @@ src/matrix/mx_city_to_arr.s: src/matrix/mx_city_to_arr.c.s
 src/matrix/mx_city_to_arr.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_city_to_arr.c.s
 .PHONY : src/matrix/mx_city_to_arr.c.s
+
+src/matrix/mx_find_path.o: src/matrix/mx_find_path.c.o
+
+.PHONY : src/matrix/mx_find_path.o
+
+# target to build an object file
+src/matrix/mx_find_path.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.o
+.PHONY : src/matrix/mx_find_path.c.o
+
+src/matrix/mx_find_path.i: src/matrix/mx_find_path.c.i
+
+.PHONY : src/matrix/mx_find_path.i
+
+# target to preprocess a source file
+src/matrix/mx_find_path.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.i
+.PHONY : src/matrix/mx_find_path.c.i
+
+src/matrix/mx_find_path.s: src/matrix/mx_find_path.c.s
+
+.PHONY : src/matrix/mx_find_path.s
+
+# target to generate assembly for a file
+src/matrix/mx_find_path.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_find_path.c.s
+.PHONY : src/matrix/mx_find_path.c.s
+
+src/matrix/mx_int_algoritm.o: src/matrix/mx_int_algoritm.c.o
+
+.PHONY : src/matrix/mx_int_algoritm.o
+
+# target to build an object file
+src/matrix/mx_int_algoritm.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.o
+.PHONY : src/matrix/mx_int_algoritm.c.o
+
+src/matrix/mx_int_algoritm.i: src/matrix/mx_int_algoritm.c.i
+
+.PHONY : src/matrix/mx_int_algoritm.i
+
+# target to preprocess a source file
+src/matrix/mx_int_algoritm.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.i
+.PHONY : src/matrix/mx_int_algoritm.c.i
+
+src/matrix/mx_int_algoritm.s: src/matrix/mx_int_algoritm.c.s
+
+.PHONY : src/matrix/mx_int_algoritm.s
+
+# target to generate assembly for a file
+src/matrix/mx_int_algoritm.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_int_algoritm.c.s
+.PHONY : src/matrix/mx_int_algoritm.c.s
 
 src/matrix/mx_int_matrix.o: src/matrix/mx_int_matrix.c.o
 
@@ -528,6 +636,33 @@ src/matrix/mx_int_string.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_int_string.c.s
 .PHONY : src/matrix/mx_int_string.c.s
 
+src/matrix/mx_print_path.o: src/matrix/mx_print_path.c.o
+
+.PHONY : src/matrix/mx_print_path.o
+
+# target to build an object file
+src/matrix/mx_print_path.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.o
+.PHONY : src/matrix/mx_print_path.c.o
+
+src/matrix/mx_print_path.i: src/matrix/mx_print_path.c.i
+
+.PHONY : src/matrix/mx_print_path.i
+
+# target to preprocess a source file
+src/matrix/mx_print_path.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.i
+.PHONY : src/matrix/mx_print_path.c.i
+
+src/matrix/mx_print_path.s: src/matrix/mx_print_path.c.s
+
+.PHONY : src/matrix/mx_print_path.s
+
+# target to generate assembly for a file
+src/matrix/mx_print_path.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/matrix/mx_print_path.c.s
+.PHONY : src/matrix/mx_print_path.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -573,15 +708,30 @@ help:
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"
+	@echo "... src/matrix/mx_back.o"
+	@echo "... src/matrix/mx_back.i"
+	@echo "... src/matrix/mx_back.s"
+	@echo "... src/matrix/mx_backtrack_int.o"
+	@echo "... src/matrix/mx_backtrack_int.i"
+	@echo "... src/matrix/mx_backtrack_int.s"
 	@echo "... src/matrix/mx_city_to_arr.o"
 	@echo "... src/matrix/mx_city_to_arr.i"
 	@echo "... src/matrix/mx_city_to_arr.s"
+	@echo "... src/matrix/mx_find_path.o"
+	@echo "... src/matrix/mx_find_path.i"
+	@echo "... src/matrix/mx_find_path.s"
+	@echo "... src/matrix/mx_int_algoritm.o"
+	@echo "... src/matrix/mx_int_algoritm.i"
+	@echo "... src/matrix/mx_int_algoritm.s"
 	@echo "... src/matrix/mx_int_matrix.o"
 	@echo "... src/matrix/mx_int_matrix.i"
 	@echo "... src/matrix/mx_int_matrix.s"
 	@echo "... src/matrix/mx_int_string.o"
 	@echo "... src/matrix/mx_int_string.i"
 	@echo "... src/matrix/mx_int_string.s"
+	@echo "... src/matrix/mx_print_path.o"
+	@echo "... src/matrix/mx_print_path.i"
+	@echo "... src/matrix/mx_print_path.s"
 .PHONY : help
 
 

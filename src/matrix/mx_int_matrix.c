@@ -30,7 +30,8 @@ static int mx_get_distance(char *string) {
 static void int_matrix(char *file, bridges **big_array, t_matrix *mat) {
     int n = 0;
     int fd = open(file, O_RDONLY);
-    int len_of_third_array = mx_atoi(mx_read_one_line(fd));
+    char *temp = mx_read_one_line(fd);
+    int len_of_third_array = mx_atoi(temp);
     int length = mx_big_name(mat->third_arr, len_of_third_array);
     for (int i = 0; i < len_of_third_array; i++) {
         for (int j = 0; j < len_of_third_array; j++) {
@@ -41,6 +42,8 @@ static void int_matrix(char *file, bridges **big_array, t_matrix *mat) {
             n++;
         }
     }
+    mx_strdel(&temp);
+    close(fd);
 }
 
 static void int_dist(char *file, bridges **big_array, int number_of_bridges, int num_str) {
@@ -75,6 +78,8 @@ static void int_dist(char *file, bridges **big_array, int number_of_bridges, int
 }
 
 
+
+
 bridges **mx_big_array_init(char *file, t_matrix *mat) {
     char *string = mx_file_to_str(file);
     char *string1;
@@ -91,8 +96,12 @@ bridges **mx_big_array_init(char *file, t_matrix *mat) {
     string1 = mx_file_to_str(file);
     num_str = mx_num_of_string(string1, '\n') -1;
     int_matrix(file, big_array, mat);
+
     int_dist(file, big_array, number_of_bridges, num_str);
 
+
+
+    mx_strdel(&string1);
     mx_strdel(&string);
     return big_array;
 }
