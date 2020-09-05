@@ -1,20 +1,13 @@
 #include "libmx.h"
 
 void *mx_memcpy(void *restrict dst, const void *restrict src, size_t n) {
-	char *i = (char *)dst;
-	char *j = (char *)src;
-	int c = 0;
+    int size = n;
+    char *res = (char *)dst;
+    char *donor = (char *)src;
 
-		while (n > 0) {
-			i[c] = j[c];
-			n--;
-			c++;
-		}
-		return dst;
+    for (int i = 0; i < size; i++) {
+        res[i] = donor[i];
+    }
+    return res;
 }
-// int main(){
-// 	const char src[50] = "oejgjgeoogj[ekvpoj";
-// 	char dst[50];
-// 	mx_memcpy(dst, src, 5);
-// 	printf("%s\n", dst);
-// }
+

@@ -1,33 +1,33 @@
 #include "libmx.h"
 
 void *mx_realloc(void *ptr, size_t size) {
-    char *pptr = (char *)ptr;
-    size_t len = mx_strlen(pptr);
-    char *result;
-    if (size == 0 && pptr) {
-        free(pptr);
-            return NULL;
+    void *str = NULL;
+    size_t len = 0;
+
+    if (ptr && size < 0) {
+        free(ptr);
+        return NULL;
     }
-    if (size && !pptr) {
+    if (ptr && size == 0) {
+        free(ptr);
+        return malloc(0);
+    }
+    if (!ptr && size)
         return malloc(size);
-    }
-    if (len > size) {
-        result = malloc(len);
-        if (!result) return NULL;
-            result = mx_memmove(result, pptr, len);
-    } 
-    else {
-        result = malloc(size);
-        if (!result) 
+    len = mx_strlen(ptr);
+    if (size < len) {
+        str = malloc(len);
+        if (!str)
             return NULL;
-        result = mx_memmove(result, pptr, size);
+        str = mx_memcpy(str, ptr, len);
     }
-    return (void *)result;
+    else {
+        str = malloc(size);
+        if (!str)
+            return NULL;
+        str = mx_memcpy(str, ptr, size);
+    }
+    free(ptr);
+    return str;
 }
 
-// int main() {
-//     char ptr[] = "elloooo";
-//     mx_realloc(ptr, 15);
-//     printf("%s\n", ptr);
-//     return 0;
-// }

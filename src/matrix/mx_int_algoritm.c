@@ -7,7 +7,9 @@ static int get_number_of_bridges(char *filename) {
     int file = open(filename, O_RDONLY);
     char *line = mx_read_one_line(file);
     int res = mx_atoi(line);
-    mx_strdel(&line);
+    free(line);
+    //mx_strdel(&line);
+    close(file);
     return res;
 }
 

@@ -15,8 +15,5 @@ int main(int argc, char *argv[]) {
                 mx_find_all_paths(&stct, i, j);
         }
     }
-    system("leaks -q pathfinder");
     return 0;
-
-
 }

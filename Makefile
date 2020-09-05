@@ -19,65 +19,70 @@ OBJ			= $(SRC:src/%.c=$(OBJ_DIR)%.o)
 # list of header files
 INC_H		= $(wildcard $(INC_DIR)*.h)
 
-# list of library
+
+# main dir with any libraries
+LIB_DIR		= .
+# list of all names of libraries in LIB_DIR
 LIB_LIST	= libmx
 # make path to library ../libs/<lib_name>/
-LIB_DIRS	= $(foreach libdirs, $(LIB_LIST), $(libdirs)/)
+LIB_DIRS	= $(foreach libdirs, $(LIB_LIST), $(LIB_DIR)/$(libdirs)/)
 # make path to ../libs/<lib_name>/<lib_name>.a
 LIB_BIN		= $(join $(LIB_DIRS), $(addsuffix .a, $(LIB_LIST)))
 # make path to ../libs/<lib_name>/inc
 LIB_INC		= $(addsuffix $(INC_DIR), $(LIB_DIRS))
 
+
 # compiler
 CC			= clang
 # general flags
-GFLAGS		= -std=c11 -Wall -Wextra -Werror -Wpedantic\
-	 -Wno-unused-command-line-argument -Wno-unused-variable \
-	 -Wno-unused-function -Wno-unused-parameter -g
+GFLAGS		= -std=c11 -pipe -Wall -Wextra -Werror -Wpedantic\
+	-Wno-unused-command-line-argument -Wno-unused-variable \
+	-Wno-unused-function -Wno-unused-parameter -g
 # specific flags
-# CFLAGS		= -lsqlite3 -lpthread
+#CFLAGS		= -lsqlite3 -lpthread
 # folder with header files
 IFLAGS		= $(addprefix -I, $(LIB_INC) $(INC_DIR))
 
-# COMPILE		= $(CC) $(GFLAGS) $(IFLAGS) $(CFLAGS) $(LIB_BIN)
 COMPILE		= $(CC) $(GFLAGS) $(IFLAGS) $(LIB_BIN)
+# -s(silent) -f() -C(launch from another folder)
 MAKE_M		= make -sf Makefile -C
 MKDIR		= mkdir -p
 RM			= /bin/rm -rf
 
 # checking if libs are up to date
-all: $(LIB_BIN) $(NAME)
-
-print:
-	@printf "$(LIB_LIST)"
+all: $(NAME)
 
 # LIB_BIN for libs dependency
-$(NAME): $(OBJ_DIR) $(OBJ) $(LIB_BIN)
+$(NAME): $(LIB_LIST) $(OBJ_DIR) $(OBJ)
 	@$(COMPILE) $(OBJ) -lmx -o $(NAME)
 	@printf "\r\33[2K$@ \033[32;1mcreated\033[0m\n"
 
+$(LIB_BIN): $(LIB_LIST)
+
 # make for all libs
-$(LIB_BIN): $(LIB_DIRS)
-	@$(MAKE_M) $^
+$(LIB_LIST): $(LIB_DIRS)
+	@$(MAKE_M) $(LIB_DIR)/$@
 
 # make dirs for obj files
 $(OBJ_DIR):
 	@$(MKDIR) $@ $(foreach dir, $(DIRS), $@/$(dir))
 
 # comling obj files
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(INC_H)
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(INC_H) $(LIB_BIN)
 	@$(COMPILE) -o $@ -c $<
-	@printf "\r\33[2K$(NAME) \033[33;1mcompile \033[0m$(<:$(SRC_DIR)/%.c=%) "
+	@printf "\r\33[2K$(NAME) \033[33;1mcompile \033[0m$(<:$(SRC_DIR)/%.c=%)"
 
 clean:
+	@$(MAKE_M) $(LIB_DIR)/$(LIB_LIST) $@
 	@$(RM) $(OBJ_DIR)
-	@printf "$(OBJ_DIR)\t   \033[31;1mdeleted\033[0m\n"
+	@printf "obj in $(NAME)\t \033[31;1mdeleted\033[0m\n"
 
 uninstall:
+	@$(MAKE_M) $(LIB_DIR)/$(LIB_LIST) $@
 	@$(RM) $(OBJ_DIR) $(NAME)
-	@$(MAKE_M) $(LIB_DIRS) $@
-	@printf "$(NAME) \033[31;1muninstalled\033[0m\n"
+	@printf "$(NAME)\t \033[31;1muninstalled\033[0m\n"
 
 reinstall: uninstall all
 
-.PHONY: all clean uninstall reinstall
+.PHONY: all clean uninstall reinstall $(LIB_LIST)
+

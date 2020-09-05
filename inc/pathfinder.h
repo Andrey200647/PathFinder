@@ -22,7 +22,7 @@ typedef struct bridges {
     char *path[2];
     long distance;
     int n;
-}               bridges;
+} bridges;
 
 typedef struct      s_main {  // TODO make and fill this structure
     char**          arr_v; // array with all points
@@ -35,7 +35,7 @@ typedef struct s_retpath {
     int        size;
     int*       path;
     int        c;
-}              t_retpath;
+} t_retpath;
 
 
 void mx_errors_main(int argc, char *argv[1], t_matrix *mat);
@@ -58,5 +58,6 @@ void mx_back_path(t_main *stct, t_retpath *stack);
 void mx_find_all_paths(t_main *stct, int st, int end);
 void mx_backtrack_int(char *file, t_matrix *mat, t_main *stct);
 void mx_matrix_clean(t_matrix *mat, char *file);
+char *mx_del_dub(char *string);
 
 #endif

@@ -28,32 +28,34 @@ static int mx_get_distance(char *string) {
 
 
 static void int_matrix(char *file, bridges **big_array, t_matrix *mat) {
+    char **array = NULL;
     int n = 0;
-    int fd = open(file, O_RDONLY);
-    char *temp = mx_read_one_line(fd);
-    int len_of_third_array = mx_atoi(temp);
-    int length = mx_big_name(mat->third_arr, len_of_third_array);
-    for (int i = 0; i < len_of_third_array; i++) {
-        for (int j = 0; j < len_of_third_array; j++) {
+    char *string = mx_file_to_str(file);
+    mx_del_not_alphabet(string);
+    string = mx_del_dub(string);
+    array = mx_strsplit(string, ' ');
+    int length = mx_big_name(array, mx_count_words(string, ' '));
+    for (int i = 0; i < mx_count_words(string, ' '); i++) {
+        for (int j = 0; j < mx_count_words(string, ' '); j++) {
             big_array[n]->path[0] = malloc(sizeof(char) * length);
             big_array[n]->path[1] = malloc(sizeof(char) * length);
-            big_array[n]->path[0] = mx_strcpy(big_array[n]->path[0], mat->third_arr[i]);
-            big_array[n]->path[1] = mx_strcpy(big_array[n]->path[1], mat->third_arr[j]);
+            big_array[n]->path[0] = mx_strcpy(big_array[n]->path[0], array[i]);
+            big_array[n]->path[1] = mx_strcpy(big_array[n]->path[1], array[j]);
             n++;
         }
     }
-    mx_strdel(&temp);
-    close(fd);
+    mx_strdel(&string);
+    mx_del_strarr(&array);
 }
 
-static void int_dist(char *file, bridges **big_array, int number_of_bridges, int num_str) {
+static void int_dist(char *filename, bridges **big_array, int number_of_bridges, int num_str) {
     char **array = NULL;
     int temp_distance;
-    int open_file = open(file, O_RDONLY);
-    char *temp_str = mx_read_one_line(open_file);
+    int file = open(filename, O_RDONLY);
+    char *temp_str = mx_read_one_line(file);
     mx_strdel(&temp_str);
     for (int i = 0; i < num_str; i++) {
-        temp_str = mx_read_one_line(open_file);
+        temp_str = mx_read_one_line(file);
         temp_distance = mx_get_distance(temp_str);
         array = mx_append_city_to_arr(temp_str);
         for (int j = 0; j < number_of_bridges; j++) {
@@ -74,7 +76,7 @@ static void int_dist(char *file, bridges **big_array, int number_of_bridges, int
         mx_strdel(&array[1]);
         mx_del_strarr(&array);
     }
-    close(open_file);
+    close(file);
 }
 
 
